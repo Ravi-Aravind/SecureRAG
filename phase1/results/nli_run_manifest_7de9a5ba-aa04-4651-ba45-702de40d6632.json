@@ -1,0 +1,20 @@
+{
+  "run_id": "7de9a5ba-aa04-4651-ba45-702de40d6632",
+  "timestamp": "2026-09-17T14:02:48Z",
+  "cve_count_processed": 25,
+  "expected_nli_pairs": 500,
+  "expected_llm_calls": 25,
+  "actual_successful_llm_calls": 25,
+  "error_count": 0,
+  "metadata": {
+    "model_identifier": "cross-encoder/nli-deberta-v3-large",
+    "device": "cpu",
+    "transformers_version": "5.17.0",
+    "torch_version": "2.14.0+cpu"
+  },
+  "environment": {
+    "api_key_present": true,
+    "runtime_seconds": 167.348979473114
+  },
+  "raw_results_hash": "b37e930f57a6bcea710f55c3e3b0b463164c0ca3fb1bbb55b33df9676b009d74"
+}

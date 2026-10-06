@@ -1,0 +1,5 @@
+defense,published_method,experiment_adaptation,exact_reproduction,evaluated,primary_comparison,result_available,methodological_status,primary_reason,interpretation_limit
+RobustRAG,secure aggregation, categorical aggregation adaptation,no,yes,yes,yes,limited adaptation, frozen classifier/refusal interaction,not a certified reproduction
+TrustRAG,internal self-assessment,not run,no,no,no,no,excluded,frozen prompt incompatibility,no statistics
+NLI,NLI contradiction filtering,paired-document contradiction filtering,no,yes,yes,yes,experiment-specific,model sensitivity to numeric boundaries,no general capability claim
+ProveRAG,provenance analysis,post-generation auxiliary evaluator,no,yes,no,yes,auxiliary only,not retrieval-layer defense,no primary comparison

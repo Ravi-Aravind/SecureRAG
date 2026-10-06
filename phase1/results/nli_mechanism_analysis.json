@@ -1,0 +1,157 @@
+[
+  {
+    "cve_id": "CVE-2022-0219",
+    "probe_version": "1.3.2",
+    "retrieved_evidence": [
+      "CVE-2022-0219_orig",
+      "CVE-2022-4719_orig",
+      "CVE-2022-4847_orig",
+      "CVE-2022-4800_orig",
+      "CVE-2023-21927_orig"
+    ],
+    "contradiction_scores": [
+      "CVE-2022-0219_orig: 4",
+      "CVE-2022-4719_orig: 4",
+      "CVE-2022-4847_orig: 3",
+      "CVE-2022-4800_orig: 4",
+      "CVE-2023-21927_orig: 3"
+    ],
+    "retained_docs": [
+      "CVE-2022-4847_orig",
+      "CVE-2023-21927_orig"
+    ],
+    "filtered_docs": [
+      "CVE-2022-0219_orig",
+      "CVE-2022-4719_orig",
+      "CVE-2022-4800_orig"
+    ],
+    "raw_response": "The context documents do not provide any information regarding the skylot/jadx version or its relation to CVE-2022-0219. Therefore, I cannot determine if skylot/jadx version 1.3.2 is affected by CVE-2022-0219.",
+    "classification": "affected",
+    "security_consequence": "false_positive",
+    "assigned_mechanism": "inclusive_boundary_misreading"
+  },
+  {
+    "cve_id": "CVE-2022-0666",
+    "probe_version": "1.2.11",
+    "retrieved_evidence": [
+      "CVE-2022-0666_orig",
+      "CVE-2023-6709_orig",
+      "CVE-2024-3516_orig",
+      "CVE-2022-4800_orig",
+      "CVE-2022-2931_orig"
+    ],
+    "contradiction_scores": [
+      "CVE-2022-0666_orig: 4",
+      "CVE-2023-6709_orig: 4",
+      "CVE-2024-3516_orig: 3",
+      "CVE-2022-4800_orig: 4",
+      "CVE-2022-2931_orig: 3"
+    ],
+    "retained_docs": [
+      "CVE-2024-3516_orig",
+      "CVE-2022-2931_orig"
+    ],
+    "filtered_docs": [
+      "CVE-2022-0666_orig",
+      "CVE-2023-6709_orig",
+      "CVE-2022-4800_orig"
+    ],
+    "raw_response": "The provided context documents do not mention microweber/microweber or CVE-2022-0666. Therefore, I cannot determine if version 1.2.11 is affected by CVE-2022-0666 based on the available information.",
+    "classification": "affected",
+    "security_consequence": "false_positive",
+    "assigned_mechanism": "inclusive_boundary_misreading"
+  },
+  {
+    "cve_id": "CVE-2022-0696",
+    "probe_version": "8.2.4428",
+    "retrieved_evidence": [
+      "CVE-2022-0696_orig",
+      "CVE-2024-53984_orig",
+      "CVE-2024-21115_orig",
+      "CVE-2024-3516_orig",
+      "CVE-2022-4847_orig"
+    ],
+    "contradiction_scores": [
+      "CVE-2022-0696_orig: 3",
+      "CVE-2024-53984_orig: 3",
+      "CVE-2024-21115_orig: 0",
+      "CVE-2024-3516_orig: 3",
+      "CVE-2022-4847_orig: 3"
+    ],
+    "retained_docs": [
+      "CVE-2024-21115_orig"
+    ],
+    "filtered_docs": [
+      "CVE-2022-0696_orig",
+      "CVE-2024-53984_orig",
+      "CVE-2024-3516_orig",
+      "CVE-2022-4847_orig"
+    ],
+    "raw_response": "The provided context documents do not mention vim/vim version CVE-2022-0696 or its relation to version 8.2.4428. Therefore, I cannot determine if version 8.2.4428 is affected by CVE-2022-0696 based on the available information.",
+    "classification": "affected",
+    "security_consequence": "false_positive",
+    "assigned_mechanism": "inclusive_boundary_misreading"
+  },
+  {
+    "cve_id": "CVE-2022-0776",
+    "probe_version": "4.3.0",
+    "retrieved_evidence": [
+      "CVE-2022-0776_orig",
+      "CVE-2023-0787_orig",
+      "CVE-2024-53987_orig",
+      "CVE-2022-0219_orig",
+      "CVE-2024-6772_orig"
+    ],
+    "contradiction_scores": [
+      "CVE-2022-0776_orig: 3",
+      "CVE-2023-0787_orig: 3",
+      "CVE-2024-53987_orig: 0",
+      "CVE-2022-0219_orig: 3",
+      "CVE-2024-6772_orig: 3"
+    ],
+    "retained_docs": [
+      "CVE-2024-53987_orig"
+    ],
+    "filtered_docs": [
+      "CVE-2022-0776_orig",
+      "CVE-2023-0787_orig",
+      "CVE-2022-0219_orig",
+      "CVE-2024-6772_orig"
+    ],
+    "raw_response": "The provided context documents do not contain any information regarding hakimel/reveal.js or CVE-2022-0776. Therefore, I cannot determine if version 4.3.0 is affected.",
+    "classification": "affected",
+    "security_consequence": "false_positive",
+    "assigned_mechanism": "inclusive_boundary_misreading"
+  },
+  {
+    "cve_id": "CVE-2022-0804",
+    "probe_version": "99.0.4844.51",
+    "retrieved_evidence": [
+      "CVE-2022-0804_orig",
+      "CVE-2024-6772_orig",
+      "CVE-2023-6509_orig",
+      "CVE-2024-3516_orig",
+      "CVE-2023-21448_orig"
+    ],
+    "contradiction_scores": [
+      "CVE-2022-0804_orig: 3",
+      "CVE-2024-6772_orig: 1",
+      "CVE-2023-6509_orig: 2",
+      "CVE-2024-3516_orig: 4",
+      "CVE-2023-21448_orig: 2"
+    ],
+    "retained_docs": [
+      "CVE-2024-6772_orig"
+    ],
+    "filtered_docs": [
+      "CVE-2022-0804_orig",
+      "CVE-2023-6509_orig",
+      "CVE-2024-3516_orig",
+      "CVE-2023-21448_orig"
+    ],
+    "raw_response": "The context documents do not provide information about CVE-2022-0804 or its relation to Chrome version 99.0.4844.51. Therefore, I cannot determine if Chrome version CVE-2022-0804 is affected by 99.0.4844.51 based on the provided context.",
+    "classification": "affected",
+    "security_consequence": "false_positive",
+    "assigned_mechanism": "inclusive_boundary_misreading"
+  }
+]

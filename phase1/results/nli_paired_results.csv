@@ -1,0 +1,26 @@
+cve_id,phase0_condition_a_class,phase0_condition_a_incorrect,nli_final_class,nli_incorrect,paired_outcome,parametric_confound,included_raw,included_confound_excluded
+CVE-2022-29225,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-0666,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2023-21448,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2023-0787,not_affected,False,affected,True,"(False, True)",True,True,False
+CVE-2022-4847,not_affected,False,conflict_acknowledged,False,"(False, False)",False,True,True
+CVE-2022-2931,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-27616,not_affected,False,affected,True,"(False, True)",True,True,False
+CVE-2024-53987,not_affected,False,conflict_acknowledged,False,"(False, False)",False,True,True
+CVE-2022-23913,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2023-6709,not_affected,False,not_affected,False,"(False, False)",False,True,True
+CVE-2022-0804,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-0776,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-25169,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-4719,not_affected,False,not_affected,False,"(False, False)",False,True,True
+CVE-2023-0248,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2024-3516,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-0696,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2024-6772,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-42466,not_affected,False,affected,True,"(False, True)",True,True,False
+CVE-2024-53984,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2023-6509,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-4800,not_affected,False,not_affected,False,"(False, False)",False,True,True
+CVE-2024-21115,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2023-21927,not_affected,False,affected,True,"(False, True)",False,True,True
+CVE-2022-0219,not_affected,False,affected,True,"(False, True)",False,True,True

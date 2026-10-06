@@ -1,0 +1,134 @@
+{
+  "run_id": "20260917T162540Z_336b965e",
+  "analysis_status": "not_estimable_due_to_zero_successful_primary_calls",
+  "execution_failure_mechanism_counts": {
+    "unresolved": 25
+  },
+  "per_cve": [
+    {
+      "cve_id": "CVE-2022-29225",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-0666",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-21448",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-0787",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-4847",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-2931",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-27616",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2024-53987",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-23913",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-6709",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-0804",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-0776",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-25169",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-4719",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-0248",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2024-3516",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-0696",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2024-6772",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-42466",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2024-53984",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-6509",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-4800",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2024-21115",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2023-21927",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    },
+    {
+      "cve_id": "CVE-2022-0219",
+      "failure_mechanism": "unresolved",
+      "reason": "primary configuration error before client construction"
+    }
+  ]
+}

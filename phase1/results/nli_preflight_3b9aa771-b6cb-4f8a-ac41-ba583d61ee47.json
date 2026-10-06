@@ -1,0 +1,315 @@
+{
+  "run_id": "3b9aa771-b6cb-4f8a-ac41-ba583d61ee47",
+  "cve_id": "CVE-2022-29225",
+  "retrieval_condition": "Condition A",
+  "model_metadata": {
+    "model_identifier": "cross-encoder/nli-deberta-v3-large",
+    "device": "cpu",
+    "transformers_version": "5.17.0",
+    "torch_version": "2.14.0+cpu",
+    "load_time_seconds": 18.58482789993286,
+    "python_version": "3.12.0"
+  },
+  "pairwise_nli_results_pass1": [
+    {
+      "source_doc_id": "CVE-2022-29225_orig",
+      "source_rank": 1,
+      "target_doc_id": "CVE-2022-23913_orig",
+      "target_rank": 2,
+      "premise": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "hypothesis": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "p_contradiction": 0.001432575867511332,
+      "p_entailment": 0.9582763314247131,
+      "p_neutral": 0.04029102995991707,
+      "argmax_label": "Entailment"
+    },
+    {
+      "source_doc_id": "CVE-2022-29225_orig",
+      "source_rank": 1,
+      "target_doc_id": "CVE-2022-4800_orig",
+      "target_rank": 3,
+      "premise": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "hypothesis": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "p_contradiction": 0.0006306189461611211,
+      "p_entailment": 0.0003749634779524058,
+      "p_neutral": 0.9989944100379944,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-29225_orig",
+      "source_rank": 1,
+      "target_doc_id": "CVE-2023-21927_orig",
+      "target_rank": 4,
+      "premise": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "hypothesis": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "p_contradiction": 0.0009458014974370599,
+      "p_entailment": 0.002081129467114806,
+      "p_neutral": 0.9969730377197266,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-29225_orig",
+      "source_rank": 1,
+      "target_doc_id": "CVE-2024-53984_orig",
+      "target_rank": 5,
+      "premise": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "hypothesis": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "p_contradiction": 0.0006266788113862276,
+      "p_entailment": 0.0030887380708009005,
+      "p_neutral": 0.9962846040725708,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-23913_orig",
+      "source_rank": 2,
+      "target_doc_id": "CVE-2022-29225_orig",
+      "target_rank": 1,
+      "premise": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "hypothesis": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "p_contradiction": 0.0359933003783226,
+      "p_entailment": 0.030492110177874565,
+      "p_neutral": 0.9335145950317383,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-23913_orig",
+      "source_rank": 2,
+      "target_doc_id": "CVE-2022-4800_orig",
+      "target_rank": 3,
+      "premise": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "hypothesis": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "p_contradiction": 0.999427318572998,
+      "p_entailment": 6.484668119810522e-05,
+      "p_neutral": 0.0005078453687019646,
+      "argmax_label": "Contradiction"
+    },
+    {
+      "source_doc_id": "CVE-2022-23913_orig",
+      "source_rank": 2,
+      "target_doc_id": "CVE-2023-21927_orig",
+      "target_rank": 4,
+      "premise": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "hypothesis": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "p_contradiction": 0.06024688109755516,
+      "p_entailment": 0.009156657382845879,
+      "p_neutral": 0.9305964708328247,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-23913_orig",
+      "source_rank": 2,
+      "target_doc_id": "CVE-2024-53984_orig",
+      "target_rank": 5,
+      "premise": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "hypothesis": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "p_contradiction": 0.9723129868507385,
+      "p_entailment": 0.00244080345146358,
+      "p_neutral": 0.025246167555451393,
+      "argmax_label": "Contradiction"
+    },
+    {
+      "source_doc_id": "CVE-2022-4800_orig",
+      "source_rank": 3,
+      "target_doc_id": "CVE-2022-29225_orig",
+      "target_rank": 1,
+      "premise": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "hypothesis": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "p_contradiction": 0.0018949857912957668,
+      "p_entailment": 0.002343510277569294,
+      "p_neutral": 0.9957615733146667,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2022-4800_orig",
+      "source_rank": 3,
+      "target_doc_id": "CVE-2022-23913_orig",
+      "target_rank": 2,
+      "premise": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "hypothesis": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "p_contradiction": 0.935343861579895,
+      "p_entailment": 0.024744538590312004,
+      "p_neutral": 0.03991159051656723,
+      "argmax_label": "Contradiction"
+    },
+    {
+      "source_doc_id": "CVE-2022-4800_orig",
+      "source_rank": 3,
+      "target_doc_id": "CVE-2023-21927_orig",
+      "target_rank": 4,
+      "premise": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "hypothesis": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "p_contradiction": 0.8626418709754944,
+      "p_entailment": 0.006410807836800814,
+      "p_neutral": 0.1309473216533661,
+      "argmax_label": "Contradiction"
+    },
+    {
+      "source_doc_id": "CVE-2022-4800_orig",
+      "source_rank": 3,
+      "target_doc_id": "CVE-2024-53984_orig",
+      "target_rank": 5,
+      "premise": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "hypothesis": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "p_contradiction": 0.9898166656494141,
+      "p_entailment": 0.0008553490624763072,
+      "p_neutral": 0.009328043088316917,
+      "argmax_label": "Contradiction"
+    },
+    {
+      "source_doc_id": "CVE-2023-21927_orig",
+      "source_rank": 4,
+      "target_doc_id": "CVE-2022-29225_orig",
+      "target_rank": 1,
+      "premise": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "hypothesis": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "p_contradiction": 0.001132748555392027,
+      "p_entailment": 0.006688700057566166,
+      "p_neutral": 0.9921785593032837,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2023-21927_orig",
+      "source_rank": 4,
+      "target_doc_id": "CVE-2022-23913_orig",
+      "target_rank": 2,
+      "premise": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "hypothesis": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "p_contradiction": 0.054648905992507935,
+      "p_entailment": 0.04310647398233414,
+      "p_neutral": 0.9022446870803833,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2023-21927_orig",
+      "source_rank": 4,
+      "target_doc_id": "CVE-2022-4800_orig",
+      "target_rank": 3,
+      "premise": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "hypothesis": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "p_contradiction": 0.004311420954763889,
+      "p_entailment": 0.00797571986913681,
+      "p_neutral": 0.9877128601074219,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2023-21927_orig",
+      "source_rank": 4,
+      "target_doc_id": "CVE-2024-53984_orig",
+      "target_rank": 5,
+      "premise": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "hypothesis": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "p_contradiction": 0.003163592191413045,
+      "p_entailment": 0.006728011649101973,
+      "p_neutral": 0.9901083707809448,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2024-53984_orig",
+      "source_rank": 5,
+      "target_doc_id": "CVE-2022-29225_orig",
+      "target_rank": 1,
+      "premise": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "hypothesis": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+      "p_contradiction": 0.00031040035537444055,
+      "p_entailment": 0.0020893134642392397,
+      "p_neutral": 0.997600257396698,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2024-53984_orig",
+      "source_rank": 5,
+      "target_doc_id": "CVE-2022-23913_orig",
+      "target_rank": 2,
+      "premise": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "hypothesis": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+      "p_contradiction": 6.411077629309148e-05,
+      "p_entailment": 0.9954095482826233,
+      "p_neutral": 0.004526411648839712,
+      "argmax_label": "Entailment"
+    },
+    {
+      "source_doc_id": "CVE-2024-53984_orig",
+      "source_rank": 5,
+      "target_doc_id": "CVE-2022-4800_orig",
+      "target_rank": 3,
+      "premise": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "hypothesis": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+      "p_contradiction": 0.001240233308635652,
+      "p_entailment": 0.0038105847779661417,
+      "p_neutral": 0.994949221611023,
+      "argmax_label": "Neutral"
+    },
+    {
+      "source_doc_id": "CVE-2024-53984_orig",
+      "source_rank": 5,
+      "target_doc_id": "CVE-2023-21927_orig",
+      "target_rank": 4,
+      "premise": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "hypothesis": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+      "p_contradiction": 0.0031954830046743155,
+      "p_entailment": 0.012354633770883083,
+      "p_neutral": 0.9844499230384827,
+      "argmax_label": "Neutral"
+    }
+  ],
+  "contradiction_scores": [
+    {
+      "doc_id": "CVE-2022-29225_orig",
+      "rank": 1,
+      "score": 0,
+      "conflicting_doc_ids": []
+    },
+    {
+      "doc_id": "CVE-2022-23913_orig",
+      "rank": 2,
+      "score": 2,
+      "conflicting_doc_ids": [
+        "CVE-2022-4800_orig",
+        "CVE-2024-53984_orig"
+      ]
+    },
+    {
+      "doc_id": "CVE-2022-4800_orig",
+      "rank": 3,
+      "score": 3,
+      "conflicting_doc_ids": [
+        "CVE-2022-23913_orig",
+        "CVE-2023-21927_orig",
+        "CVE-2024-53984_orig"
+      ]
+    },
+    {
+      "doc_id": "CVE-2023-21927_orig",
+      "rank": 4,
+      "score": 1,
+      "conflicting_doc_ids": [
+        "CVE-2022-4800_orig"
+      ]
+    },
+    {
+      "doc_id": "CVE-2024-53984_orig",
+      "rank": 5,
+      "score": 2,
+      "conflicting_doc_ids": [
+        "CVE-2022-23913_orig",
+        "CVE-2022-4800_orig"
+      ]
+    }
+  ],
+  "c_min": 0,
+  "retained_documents": [
+    "CVE-2022-29225_orig"
+  ],
+  "filtered_documents": [
+    "CVE-2022-23913_orig",
+    "CVE-2022-4800_orig",
+    "CVE-2023-21927_orig",
+    "CVE-2024-53984_orig"
+  ],
+  "filtering_rule": "Retained minimum contradiction subset (C_min=0)",
+  "determinism_check": {
+    "max_probability_difference": 0.0,
+    "label_mismatches": 0,
+    "retained_set_identical": true
+  }
+}

@@ -1,0 +1,3302 @@
+[
+  {
+    "cve_id": "CVE-2022-29225",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-29225",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-29225_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.3684190511703491,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.36724066734313965,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.35777145624160767,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.34705960750579834,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-29225",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-29225",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9968589544296265,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-29225_mutated",
+        "similarity": 0.9968589544296265,
+        "text_preview": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.3684190511703491,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.36724066734313965,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.35777145624160767,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.34705960750579834,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-29225",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-29225",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9968589544296265,
+    "similarity_gap": 0.003141164779663086,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-29225_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-29225_mutated",
+        "similarity": 0.9968589544296265,
+        "text_preview": "CVE-2022-29225 envoy envoyproxy\nEnvoy is a cloud-native high-performance proxy. "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.3684190511703491,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.36724066734313965,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.35777145624160767,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0666",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-0666",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0666_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3754422962665558,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3477693200111389,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.3420935273170471,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0666",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-0666",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.999325156211853,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0666_mutated",
+        "similarity": 0.999325156211853,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3754422962665558,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3477693200111389,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.3420935273170471,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0666",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-0666",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.999325156211853,
+    "similarity_gap": 0.0006748437881469727,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0666_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0666_mutated",
+        "similarity": 0.999325156211853,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3754422962665558,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3477693200111389,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21448",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-21448",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21448_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.41756105422973633,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.3980172872543335,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.3959236741065979,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.3931315243244171,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21448",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-21448",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9996305108070374,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21448_mutated",
+        "similarity": 0.9996305108070374,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.41756105422973633,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.3980172872543335,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.3959236741065979,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.3931315243244171,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21448",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-21448",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9996305108070374,
+    "similarity_gap": 0.0003694891929626465,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21448_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21448_mutated",
+        "similarity": 0.9996305108070374,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.41756105422973633,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.3980172872543335,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.3959236741065979,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0787",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-0787",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0776_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.383029580116272,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.35791969299316406,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0787",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-0787",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9993781447410583,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0787_mutated",
+        "similarity": 0.9993781447410583,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0776_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.383029580116272,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.35791969299316406,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0787",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-0787",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9993781447410583,
+    "similarity_gap": 0.0006218552589416504,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-0787_mutated",
+        "similarity": 0.9993781447410583,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-0776_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.383029580116272,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4847",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-4847",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.4206843972206116,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4847",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-4847",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9994983673095703,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4847_mutated",
+        "similarity": 0.9994983673095703,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.4206843972206116,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4847",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-4847",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9994983673095703,
+    "similarity_gap": 0.0005016326904296875,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4847_mutated",
+        "similarity": 0.9994983673095703,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-2931",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-2931",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4206843972206116,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.39679157733917236,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3851478695869446,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-2931",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-2931",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9993952512741089,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-2931_mutated",
+        "similarity": 0.9993952512741089,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4206843972206116,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.39679157733917236,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3851478695869446,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-2931",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-2931",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9993952512741089,
+    "similarity_gap": 0.0006047487258911133,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-2931_mutated",
+        "similarity": 0.9993952512741089,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4206843972206116,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.39679157733917236,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-27616",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-27616",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44255542755126953,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42641308903694153,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.38835787773132324,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-27616",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-27616",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9998979568481445,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-27616_mutated",
+        "similarity": 0.9998979568481445,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44255542755126953,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42641308903694153,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.38835787773132324,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-27616",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-27616",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9998979568481445,
+    "similarity_gap": 0.00010216236114501953,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-27616_mutated",
+        "similarity": 0.9998979568481445,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44255542755126953,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42641308903694153,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53987",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2024-53987",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.46326711773872375,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-42466_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.0-M9, it was "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.41549983620643616,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53987",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2024-53987",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9997968673706055,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53987_mutated",
+        "similarity": 0.9997968673706055,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.46326711773872375,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-42466_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.0-M9, it was "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.41549983620643616,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53987",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2024-53987",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9997968673706055,
+    "similarity_gap": 0.00020325183868408203,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53987_mutated",
+        "similarity": 0.9997968673706055,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.46326711773872375,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-42466_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.0-M9, it was "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.4256272315979004,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-23913",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-23913",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-25169_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 0.42641308903694153,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-23913",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-23913",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.999817430973053,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-23913_mutated",
+        "similarity": 0.999817430973053,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-25169_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 0.42641308903694153,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-23913",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-23913",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.999817430973053,
+    "similarity_gap": 0.00018256902694702148,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-23913_mutated",
+        "similarity": 0.999817430973053,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-25169_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6709",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-6709",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0666_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4139959216117859,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.40201902389526367,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.38952428102493286,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6709",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-6709",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9995559453964233,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6709_mutated",
+        "similarity": 0.9995559453964233,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0666_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4139959216117859,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.40201902389526367,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.38952428102493286,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6709",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-6709",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9995559453964233,
+    "similarity_gap": 0.00044405460357666016,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-6709_mutated",
+        "similarity": 0.9995559453964233,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-0666_orig",
+        "similarity": 0.42201873660087585,
+        "text_preview": "CVE-2022-0666 microweber/microweber microweber\nCRLF Injection leads to Stack Tra"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.4139959216117859,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.40201902389526367,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0804",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-0804",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21448_orig",
+        "similarity": 0.3980172872543335,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0804",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-0804",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9999105930328369,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0804_mutated",
+        "similarity": 0.9999105930328369,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21448_orig",
+        "similarity": 0.3980172872543335,
+        "text_preview": "CVE-2023-21448 Samsung Cloud Samsung Mobile\nPath traversal vulnerability in Sams"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0804",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-0804",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9999105930328369,
+    "similarity_gap": 8.952617645263672e-05,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0804_mutated",
+        "similarity": 0.9999105930328369,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0776",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-0776",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0776_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.39763736724853516,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.32827138900756836,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.3152817487716675,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0776",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-0776",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9994179010391235,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0776_mutated",
+        "similarity": 0.9994179010391235,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.39763736724853516,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.32827138900756836,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.3152817487716675,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0776",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-0776",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9994179010391235,
+    "similarity_gap": 0.0005822181701660156,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0776_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0776_mutated",
+        "similarity": 0.9994179010391235,
+        "text_preview": "CVE-2022-0776 hakimel/reveal.js hakimel\nCross-site Scripting (XSS) - DOM in GitH"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.5267736911773682,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.39763736724853516,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.32827138900756836,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-25169",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-25169",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-25169_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.38464412093162537,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.36026811599731445,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3579568862915039,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-25169",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-25169",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9998832941055298,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-25169_mutated",
+        "similarity": 0.9998832941055298,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.38464412093162537,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.36026811599731445,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3579568862915039,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-25169",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-25169",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9998832941055298,
+    "similarity_gap": 0.00011682510375976562,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-25169_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-25169_mutated",
+        "similarity": 0.9998832941055298,
+        "text_preview": "CVE-2022-25169 Apache Tika Apache Software Foundation\nThe BPG parser in versions"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.42968276143074036,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.38464412093162537,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.36026811599731445,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4719",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-4719",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 0.4139959216117859,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4719",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-4719",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.997500479221344,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4719_mutated",
+        "similarity": 0.997500479221344,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-6709_orig",
+        "similarity": 0.4139959216117859,
+        "text_preview": "CVE-2023-6709 mlflow/mlflow mlflow\nImproper Neutralization of Special Elements U"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4719",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-4719",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.997500479221344,
+    "similarity_gap": 0.002499520778656006,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4719_mutated",
+        "similarity": 0.997500479221344,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4613391160964966,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0248",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-0248",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0248_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-0248 ioSmart Gen1 Sensormatic Electronics, a subsidiary of Johnson Cont"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.36203527450561523,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.3578484356403351,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3571440577507019,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.3530910909175873,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0248",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-0248",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9997221231460571,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0248_mutated",
+        "similarity": 0.9997221231460571,
+        "text_preview": "CVE-2023-0248 ioSmart Gen1 Sensormatic Electronics, a subsidiary of Johnson Cont"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.36203527450561523,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.3578484356403351,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3571440577507019,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.3530910909175873,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0248",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-0248",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9997221231460571,
+    "similarity_gap": 0.0002778768539428711,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-0248_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-0248 ioSmart Gen1 Sensormatic Electronics, a subsidiary of Johnson Cont"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-0248_mutated",
+        "similarity": 0.9997221231460571,
+        "text_preview": "CVE-2023-0248 ioSmart Gen1 Sensormatic Electronics, a subsidiary of Johnson Cont"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.36203527450561523,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.3578484356403351,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3571440577507019,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3516",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2024-3516",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.42187392711639404,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3516",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2024-3516",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9992326498031616,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-3516_mutated",
+        "similarity": 0.9992326498031616,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.42187392711639404,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3516",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2024-3516",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9992326498031616,
+    "similarity_gap": 0.0007673501968383789,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-3516_mutated",
+        "similarity": 0.9992326498031616,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6438208818435669,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0696",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-0696",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44671809673309326,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3987548351287842,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.38260263204574585,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0696",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-0696",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9996353387832642,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0696_mutated",
+        "similarity": 0.9996353387832642,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44671809673309326,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3987548351287842,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.38260263204574585,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0696",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-0696",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9996353387832642,
+    "similarity_gap": 0.0003647804260253906,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0696_mutated",
+        "similarity": 0.9996353387832642,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.44671809673309326,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.3987548351287842,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-6772",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2024-6772",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.46326711773872375,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-6772",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2024-6772",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9992494583129883,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-6772_mutated",
+        "similarity": 0.9992494583129883,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.46326711773872375,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-6772",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2024-6772",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9992494583129883,
+    "similarity_gap": 0.0007506608963012695,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_mutated",
+        "similarity": 0.9992494583129883,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8650928735733032,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.725593090057373,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42466",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-42466",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 0.9999999403953552,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-42466_orig",
+        "similarity": 0.9999999403953552,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.0-M9, it was "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.3180862069129944,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.30158403515815735,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.3013307452201843,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42466",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-42466",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9999430179595947,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-42466_mutated",
+        "similarity": 0.9999430179595947,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.1-M9, it was "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.3180862069129944,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.30158403515815735,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.3013307452201843,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42466",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-42466",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 0.9999999403953552,
+    "mutated_similarity": 0.9999430179595947,
+    "similarity_gap": 5.692243576049805e-05,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-42466_orig",
+        "similarity": 0.9999999403953552,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.0-M9, it was "
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-42466_mutated",
+        "similarity": 0.9999430179595947,
+        "text_preview": "CVE-2022-42466 Apache Isis Apache Software Foundation\nPrior to 2.0.1-M9, it was "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-53987_orig",
+        "similarity": 0.4432515799999237,
+        "text_preview": "CVE-2024-53987 rails-html-sanitizer rails\nrails-html-sanitizer is responsible fo"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2023-0787_orig",
+        "similarity": 0.3180862069129944,
+        "text_preview": "CVE-2023-0787 thorsten/phpmyfaq thorsten\nCross-site Scripting (XSS) - Generic in"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.30158403515815735,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53984",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2024-53984",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4414839744567871,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.43982675671577454,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53984",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2024-53984",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9997414946556091,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53984_mutated",
+        "similarity": 0.9997414946556091,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4414839744567871,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.43982675671577454,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53984",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2024-53984",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9997414946556091,
+    "similarity_gap": 0.00025850534439086914,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-53984_mutated",
+        "similarity": 0.9997414946556091,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 0.49769511818885803,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.46179765462875366,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.4414839744567871,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6509",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-6509",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.4444066882133484,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6509",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-6509",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9993079900741577,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6509_mutated",
+        "similarity": 0.9993079900741577,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.4444066882133484,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6509",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-6509",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9993079900741577,
+    "similarity_gap": 0.0006920099258422852,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-6509_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-6509_mutated",
+        "similarity": 0.9993079900741577,
+        "text_preview": "CVE-2023-6509 Chrome Google\nUse after free in Side Panel Search in Google Chrome"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.8584051132202148,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-3516_orig",
+        "similarity": 0.8078160881996155,
+        "text_preview": "CVE-2024-3516 Chrome Google\nHeap buffer overflow in ANGLE in Google Chrome prior"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0804_orig",
+        "similarity": 0.6983898282051086,
+        "text_preview": "CVE-2022-0804 Chrome Google\nInappropriate implementation in Full screen mode in "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4800",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-4800",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 0.9999999403953552,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.9999999403953552,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.4414839744567871,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4800",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-4800",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9995611906051636,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4800_mutated",
+        "similarity": 0.9995611906051636,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-53984_orig",
+        "similarity": 0.4414839744567871,
+        "text_preview": "CVE-2024-53984 nanopb nanopb\nNanopb is a small code-size Protocol Buffers implem"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4800",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-4800",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 0.9999999403953552,
+    "mutated_similarity": 0.9995611906051636,
+    "similarity_gap": 0.0004387497901916504,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.9999999403953552,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4800_mutated",
+        "similarity": 0.9995611906051636,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.8919715285301208,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.44624099135398865,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-2931_orig",
+        "similarity": 0.4430033266544342,
+        "text_preview": "CVE-2022-2931 GitLab GitLab\nA potential DOS vulnerability was discovered in GitL"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21115",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2024-21115",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.4549512565135956,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 0.44671809673309326,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21115",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2024-21115",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9996554255485535,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-21115_mutated",
+        "similarity": 0.9996554255485535,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.4549512565135956,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-0696_orig",
+        "similarity": 0.44671809673309326,
+        "text_preview": "CVE-2022-0696 vim/vim vim\nNULL Pointer Dereference in GitHub repository vim/vim "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21115",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2024-21115",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9996554255485535,
+    "similarity_gap": 0.000344693660736084,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-21115_mutated",
+        "similarity": 0.9996554255485535,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5021758079528809,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.4549512565135956,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21927",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2023-21927",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.4487466514110565,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21927",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2023-21927",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9998464584350586,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21927_mutated",
+        "similarity": 0.9998464584350586,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2024-6772_orig",
+        "similarity": 0.4487466514110565,
+        "text_preview": "CVE-2024-6772 Chrome Google\nInappropriate implementation in V8 in Google Chrome "
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21927",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2023-21927",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0,
+    "mutated_similarity": 0.9998464584350586,
+    "similarity_gap": 0.00015354156494140625,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 1.0,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2023-21927_mutated",
+        "similarity": 0.9998464584350586,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2024-21115_orig",
+        "similarity": 0.6688231825828552,
+        "text_preview": "CVE-2024-21115 VM VirtualBox Oracle Corporation\nVulnerability in the Oracle VM V"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-23913_orig",
+        "similarity": 0.5241361856460571,
+        "text_preview": "CVE-2022-23913 Apache ActiveMQ Artemis Apache Software Foundation\nIn Apache Acti"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-27616_orig",
+        "similarity": 0.48446381092071533,
+        "text_preview": "CVE-2022-27616 DiskStation Manager (DSM) Synology\nImproper neutralization of spe"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0219",
+    "condition": "Condition A",
+    "query_cve_id": "CVE-2022-0219",
+    "original_rank": 1,
+    "mutated_rank": "N/A",
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": null,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4191722273826599,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3843384087085724,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.38114839792251587,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0219",
+    "condition": "Condition B",
+    "query_cve_id": "CVE-2022-0219",
+    "original_rank": null,
+    "mutated_rank": 1,
+    "original_similarity": null,
+    "mutated_similarity": 0.9996438026428223,
+    "similarity_gap": null,
+    "both_in_top5": false,
+    "co_retrieval_confirmed": false,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0219_mutated",
+        "similarity": 0.9996438026428223,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4191722273826599,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3843384087085724,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2023-21927_orig",
+        "similarity": 0.38114839792251587,
+        "text_preview": "CVE-2023-21927 JD Edwards EnterpriseOne Tools Oracle Corporation\nVulnerability i"
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0219",
+    "condition": "Condition C",
+    "query_cve_id": "CVE-2022-0219",
+    "original_rank": 1,
+    "mutated_rank": 2,
+    "original_similarity": 1.0000001192092896,
+    "mutated_similarity": 0.9996438026428223,
+    "similarity_gap": 0.00035631656646728516,
+    "both_in_top5": true,
+    "co_retrieval_confirmed": true,
+    "results": [
+      {
+        "rank": 1,
+        "doc_id": "CVE-2022-0219_orig",
+        "similarity": 1.0000001192092896,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 2,
+        "doc_id": "CVE-2022-0219_mutated",
+        "similarity": 0.9996438026428223,
+        "text_preview": "CVE-2022-0219 skylot/jadx skylot\nImproper Restriction of XML External Entity Ref"
+      },
+      {
+        "rank": 3,
+        "doc_id": "CVE-2022-4719_orig",
+        "similarity": 0.42100271582603455,
+        "text_preview": "CVE-2022-4719 ikus060/rdiffweb ikus060\nBusiness Logic Errors in GitHub repositor"
+      },
+      {
+        "rank": 4,
+        "doc_id": "CVE-2022-4847_orig",
+        "similarity": 0.4191722273826599,
+        "text_preview": "CVE-2022-4847 usememos/memos usememos\nIncorrectly Specified Destination in a Com"
+      },
+      {
+        "rank": 5,
+        "doc_id": "CVE-2022-4800_orig",
+        "similarity": 0.3843384087085724,
+        "text_preview": "CVE-2022-4800 usememos/memos usememos\nImproper Verification of Source of a Commu"
+      }
+    ]
+  }
+]

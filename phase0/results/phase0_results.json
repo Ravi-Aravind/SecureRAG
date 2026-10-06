@@ -1,0 +1,134 @@
+{
+  "experiment_metadata": {
+    "step": "Step 18",
+    "description": "Statistical analysis for RAG poisoning experiment (Phase 0)",
+    "n_total_cves": 25,
+    "data_source": "data/analysis_ready.csv",
+    "retrieval_source": "data/retrieval_results.json",
+    "bootstrap_resamples": 10000,
+    "random_seed": 42
+  },
+  "primary_outcomes": {
+    "n_total": 25,
+    "condition_a": {
+      "not_affected_count": 25,
+      "affected_count": 0,
+      "other_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "condition_b": {
+      "affected_count": 25,
+      "other_count": 0
+    },
+    "condition_c": {
+      "affected_count": 12,
+      "conflict_acknowledged_count": 9,
+      "not_affected_count": 4,
+      "other_count": 0,
+      "false_positive_rate": 0.48
+    },
+    "risk_difference": {
+      "observed": 0.48,
+      "formula": "Cond_C_FP_rate - Cond_A_FP_rate",
+      "bootstrap_ci_95": {
+        "lower": 0.28,
+        "upper": 0.68
+      }
+    }
+  },
+  "mcnemar_test": {
+    "unit_of_analysis": "CVE",
+    "paired_comparison": "Cond_A_probe vs Cond_C_probe",
+    "contingency_counts": {
+      "n00_a_not_affected_c_not_affected": 4,
+      "n01_a_not_affected_c_affected": 12,
+      "n10_a_affected_c_not_affected": 0,
+      "n11_a_affected_c_affected": 0
+    },
+    "discordant_pairs": {
+      "n01": 12,
+      "n10": 0
+    },
+    "chi_square_statistic": 12.0,
+    "chi_square_pvalue": 0.0005320055051392493,
+    "exact_pvalue": 0.00048828125,
+    "interpretation": "Statistically significant increase in false positive rate under Condition C (exact p = 4.8828e-04 < 0.001; chi-square = 12.00).",
+    "degeneracy_note": "With n10=0 the test is one-sided in nature; the p-value reflects only n01 discordant pairs."
+  },
+  "parametric_confounds": {
+    "total_confounds": 3,
+    "confound_cve_ids": [
+      "CVE-2023-0787",
+      "CVE-2022-27616",
+      "CVE-2022-42466"
+    ],
+    "raw_fp_count": 12,
+    "raw_fp_rate": 0.48,
+    "fp_excluding_parametric_count": 9,
+    "fp_excluding_parametric_rate_sample": 0.36,
+    "fp_excluding_parametric_rate_subset": 0.4090909090909091
+  },
+  "qualitative_mechanisms": {
+    "inclusive_boundary_misreading_count": 8,
+    "inclusive_boundary_misreading_rate": 0.32,
+    "genuine_mutated_boundary_poisoning_count": 2,
+    "genuine_mutated_boundary_poisoning_rate": 0.08,
+    "parametric_override_count": 2,
+    "classifier_error_count": 1,
+    "none_count": 12
+  },
+  "retrieval_metrics": {
+    "condition_c_similarity_gap": {
+      "mean": 0.000583810806274414,
+      "min": 5.692243576049805e-05,
+      "max": 0.003141164779663086,
+      "bootstrap_ci_95": {
+        "lower": 0.0003505820035934448,
+        "upper": 0.0009010549187660216
+      }
+    },
+    "co_retrieval_rate": {
+      "confirmed_count": 25,
+      "total_count": 25,
+      "rate": 1.0
+    },
+    "condition_a_recall": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0
+    }
+  },
+  "security_consequences": {
+    "false_positive_security_decision": {
+      "count": 12,
+      "fraction": 0.48,
+      "percentage": 48.0,
+      "description": "Condition C probe = affected (vulnerability falsely reported as applicable)"
+    },
+    "conflict_no_decision": {
+      "count": 9,
+      "fraction": 0.36,
+      "percentage": 36.0,
+      "description": "Condition C probe = conflict_acknowledged (conflicting versions reported, no clear decision)"
+    },
+    "correct_not_affected": {
+      "count": 4,
+      "fraction": 0.16,
+      "percentage": 16.0,
+      "description": "Condition C probe = not_affected (model resisted poisoning / correctly determined safe version)"
+    }
+  },
+  "parametric_sensitivity": {
+    "correct_count": 1,
+    "mutated_count": 3,
+    "parsing_failure_count": 20,
+    "refusal_count": 1,
+    "other_count": 0,
+    "note": "parsing_failure means the model did not produce a recognizable version boundary (likely unknown CVE). Do NOT call this proof of memorization."
+  },
+  "statistical_cautions": [
+    "N=25: low statistical power. Confidence intervals are wide. Non-significance does not prove no effect.",
+    "McNemar's test with n10=0 is degenerate in one direction. The p-value reflects only n01 discordant pairs.",
+    "Bootstrap CI reflects sampling variability in this sample only."
+  ]
+}

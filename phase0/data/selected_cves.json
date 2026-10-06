@@ -1,0 +1,427 @@
+[
+  {
+    "cve_id": "CVE-2022-29225",
+    "vendor": "envoyproxy",
+    "product": "envoy",
+    "description": "Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+    "mutated_description": "Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.2 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
+    "original_boundary": "1.22.1",
+    "mutated_boundary": "1.22.2",
+    "probe_version": "1.22.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.22.1",
+        "1.22.2"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0666",
+    "vendor": "microweber",
+    "product": "microweber/microweber",
+    "description": "CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https://demo.microweber.org/ in Packagist microweber/microweber prior to 1.2.11.",
+    "mutated_description": "CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https://demo.microweber.org/ in Packagist microweber/microweber prior to 1.2.12.",
+    "original_boundary": "1.2.11",
+    "mutated_boundary": "1.2.12",
+    "probe_version": "1.2.11",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.2.11.",
+        "1.2.12."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21448",
+    "vendor": "Samsung Mobile",
+    "product": "Samsung Cloud",
+    "description": "Path traversal vulnerability in Samsung Cloud prior to version 5.3.0.32 allows attacker to access specific png file.",
+    "mutated_description": "Path traversal vulnerability in Samsung Cloud prior to version 5.3.0.33 allows attacker to access specific png file.",
+    "original_boundary": "5.3.0.32",
+    "mutated_boundary": "5.3.0.33",
+    "probe_version": "5.3.0.32",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "5.3.0.32",
+        "5.3.0.33"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0787",
+    "vendor": "thorsten",
+    "product": "thorsten/phpmyfaq",
+    "description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.11.",
+    "mutated_description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+    "original_boundary": "3.1.11",
+    "mutated_boundary": "3.1.12",
+    "probe_version": "3.1.11",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "3.1.11.",
+        "3.1.12."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4847",
+    "vendor": "usememos",
+    "product": "usememos/memos",
+    "description": "Incorrectly Specified Destination in a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+    "mutated_description": "Incorrectly Specified Destination in a Communication Channel in GitHub repository usememos/memos prior to 0.9.2.",
+    "original_boundary": "0.9.1",
+    "mutated_boundary": "0.9.2",
+    "probe_version": "0.9.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "0.9.1.",
+        "0.9.2."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-2931",
+    "vendor": "GitLab",
+    "product": "GitLab",
+    "description": "A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage.",
+    "mutated_description": "A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.7, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage.",
+    "original_boundary": "15.1.6",
+    "mutated_boundary": "15.1.7",
+    "probe_version": "15.1.6",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "15.1.6,",
+        "15.1.7,"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-27616",
+    "vendor": "Synology",
+    "product": "DiskStation Manager (DSM)",
+    "description": "Improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability in webapi component in Synology DiskStation Manager (DSM) before 7.0.1-42218-3 allows remote authenticated users to execute arbitrary commands via unspecified vectors.",
+    "mutated_description": "Improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability in webapi component in Synology DiskStation Manager (DSM) before 7.0.2-42218-3 allows remote authenticated users to execute arbitrary commands via unspecified vectors.",
+    "original_boundary": "7.0.1",
+    "mutated_boundary": "7.0.2",
+    "probe_version": "7.0.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "7.0.1-42218-3",
+        "7.0.2-42218-3"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53987",
+    "vendor": "rails",
+    "product": "rails-html-sanitizer",
+    "description": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags where the \"style\" element is explicitly allowed and the \"svg\" or \"math\" element is not allowed. This vulnerability is fixed in 1.6.1.",
+    "mutated_description": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags where the \"style\" element is explicitly allowed and the \"svg\" or \"math\" element is not allowed. This vulnerability is fixed in 1.6.2.",
+    "original_boundary": "1.6.1",
+    "mutated_boundary": "1.6.2",
+    "probe_version": "1.6.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.6.1.",
+        "1.6.2."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-23913",
+    "vendor": "Apache Software Foundation",
+    "product": "Apache ActiveMQ Artemis",
+    "description": "In Apache ActiveMQ Artemis prior to 2.20.0 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+    "mutated_description": "In Apache ActiveMQ Artemis prior to 2.20.1 or 2.19.1, an attacker could partially disrupt availability (DoS) through uncontrolled resource consumption of memory.",
+    "original_boundary": "2.20.0",
+    "mutated_boundary": "2.20.1",
+    "probe_version": "2.20.0",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "2.20.0",
+        "2.20.1"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6709",
+    "vendor": "mlflow",
+    "product": "mlflow/mlflow",
+    "description": "Improper Neutralization of Special Elements Used in a Template Engine in GitHub repository mlflow/mlflow prior to 2.9.2.",
+    "mutated_description": "Improper Neutralization of Special Elements Used in a Template Engine in GitHub repository mlflow/mlflow prior to 2.9.3.",
+    "original_boundary": "2.9.2",
+    "mutated_boundary": "2.9.3",
+    "probe_version": "2.9.2",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "2.9.2.",
+        "2.9.3."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0804",
+    "vendor": "Google",
+    "product": "Chrome",
+    "description": "Inappropriate implementation in Full screen mode in Google Chrome on Android prior to 99.0.4844.51 allowed a remote attacker to hide the contents of the Omnibox (URL bar) via a crafted HTML page.",
+    "mutated_description": "Inappropriate implementation in Full screen mode in Google Chrome on Android prior to 99.0.4844.52 allowed a remote attacker to hide the contents of the Omnibox (URL bar) via a crafted HTML page.",
+    "original_boundary": "99.0.4844.51",
+    "mutated_boundary": "99.0.4844.52",
+    "probe_version": "99.0.4844.51",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "99.0.4844.51",
+        "99.0.4844.52"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0776",
+    "vendor": "hakimel",
+    "product": "hakimel/reveal.js",
+    "description": "Cross-site Scripting (XSS) - DOM in GitHub repository hakimel/reveal.js prior to 4.3.0.",
+    "mutated_description": "Cross-site Scripting (XSS) - DOM in GitHub repository hakimel/reveal.js prior to 4.3.1.",
+    "original_boundary": "4.3.0",
+    "mutated_boundary": "4.3.1",
+    "probe_version": "4.3.0",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "4.3.0.",
+        "4.3.1."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-25169",
+    "vendor": "Apache Software Foundation",
+    "product": "Apache Tika",
+    "description": "The BPG parser in versions of Apache Tika before 1.28.2 and 2.4.0 may allocate an unreasonable amount of memory on carefully crafted files.",
+    "mutated_description": "The BPG parser in versions of Apache Tika before 1.28.3 and 2.4.0 may allocate an unreasonable amount of memory on carefully crafted files.",
+    "original_boundary": "1.28.2",
+    "mutated_boundary": "1.28.3",
+    "probe_version": "1.28.2",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.28.2",
+        "1.28.3"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4719",
+    "vendor": "ikus060",
+    "product": "ikus060/rdiffweb",
+    "description": "Business Logic Errors in GitHub repository ikus060/rdiffweb prior to 2.5.5.",
+    "mutated_description": "Business Logic Errors in GitHub repository ikus060/rdiffweb prior to 2.5.6.",
+    "original_boundary": "2.5.5",
+    "mutated_boundary": "2.5.6",
+    "probe_version": "2.5.5",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "2.5.5.",
+        "2.5.6."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0248",
+    "vendor": "Sensormatic Electronics, a subsidiary of Johnson Controls, Inc.",
+    "product": "ioSmart Gen1",
+    "description": "An attacker with physical access to the Kantech Gen1 ioSmart card reader with firmware version prior to 1.07.02 in certain circumstances can recover the reader's communication memory between the card and reader.",
+    "mutated_description": "An attacker with physical access to the Kantech Gen1 ioSmart card reader with firmware version prior to 1.07.3 in certain circumstances can recover the reader's communication memory between the card and reader.",
+    "original_boundary": "1.07.02",
+    "mutated_boundary": "1.07.3",
+    "probe_version": "1.07.02",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.07.02",
+        "1.07.3"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3516",
+    "vendor": "Google",
+    "product": "Chrome",
+    "description": "Heap buffer overflow in ANGLE in Google Chrome prior to 123.0.6312.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+    "mutated_description": "Heap buffer overflow in ANGLE in Google Chrome prior to 123.0.6312.123 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+    "original_boundary": "123.0.6312.122",
+    "mutated_boundary": "123.0.6312.123",
+    "probe_version": "123.0.6312.122",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "123.0.6312.122",
+        "123.0.6312.123"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0696",
+    "vendor": "vim",
+    "product": "vim/vim",
+    "description": "NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.4428.",
+    "mutated_description": "NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.4429.",
+    "original_boundary": "8.2.4428",
+    "mutated_boundary": "8.2.4429",
+    "probe_version": "8.2.4428",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "8.2.4428.",
+        "8.2.4429."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-6772",
+    "vendor": "Google",
+    "product": "Chrome",
+    "description": "Inappropriate implementation in V8 in Google Chrome prior to 126.0.6478.182 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+    "mutated_description": "Inappropriate implementation in V8 in Google Chrome prior to 126.0.6478.183 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+    "original_boundary": "126.0.6478.182",
+    "mutated_boundary": "126.0.6478.183",
+    "probe_version": "126.0.6478.182",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "126.0.6478.182",
+        "126.0.6478.183"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42466",
+    "vendor": "Apache Software Foundation",
+    "product": "Apache Isis",
+    "description": "Prior to 2.0.0-M9, it was possible for an end-user to set the value of an editable string property of a domain object to a value that would be rendered unchanged when the value was saved. In particular, the end-user could enter javascript or similar and this would be executed. As of this release, the inputted strings are properly escaped when rendered.",
+    "mutated_description": "Prior to 2.0.1-M9, it was possible for an end-user to set the value of an editable string property of a domain object to a value that would be rendered unchanged when the value was saved. In particular, the end-user could enter javascript or similar and this would be executed. As of this release, the inputted strings are properly escaped when rendered.",
+    "original_boundary": "2.0.0",
+    "mutated_boundary": "2.0.1",
+    "probe_version": "2.0.0",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "2.0.0-M9,",
+        "2.0.1-M9,"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-53984",
+    "vendor": "nanopb",
+    "product": "nanopb",
+    "description": "Nanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+    "mutated_description": "Nanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.2.",
+    "original_boundary": "0.4.9.1",
+    "mutated_boundary": "0.4.9.2",
+    "probe_version": "0.4.9.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "0.4.9.1.",
+        "0.4.9.2."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6509",
+    "vendor": "Google",
+    "product": "Chrome",
+    "description": "Use after free in Side Panel Search in Google Chrome prior to 120.0.6099.62 allowed a remote attacker who convinced a user to engage in specific UI interaction to potentially exploit heap corruption via specific UI interaction. (Chromium security severity: High)",
+    "mutated_description": "Use after free in Side Panel Search in Google Chrome prior to 120.0.6099.63 allowed a remote attacker who convinced a user to engage in specific UI interaction to potentially exploit heap corruption via specific UI interaction. (Chromium security severity: High)",
+    "original_boundary": "120.0.6099.62",
+    "mutated_boundary": "120.0.6099.63",
+    "probe_version": "120.0.6099.62",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "120.0.6099.62",
+        "120.0.6099.63"
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-4800",
+    "vendor": "usememos",
+    "product": "usememos/memos",
+    "description": "Improper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.1.",
+    "mutated_description": "Improper Verification of Source of a Communication Channel in GitHub repository usememos/memos prior to 0.9.2.",
+    "original_boundary": "0.9.1",
+    "mutated_boundary": "0.9.2",
+    "probe_version": "0.9.1",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "0.9.1.",
+        "0.9.2."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21115",
+    "vendor": "Oracle Corporation",
+    "product": "VM VirtualBox",
+    "description": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.16. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
+    "mutated_description": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.17. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
+    "original_boundary": "7.0.16",
+    "mutated_boundary": "7.0.17",
+    "probe_version": "7.0.16",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "7.0.16.",
+        "7.0.17."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21927",
+    "vendor": "Oracle Corporation",
+    "product": "JD Edwards EnterpriseOne Tools",
+    "description": "Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+    "mutated_description": "Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are Prior to 9.2.7.4. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).",
+    "original_boundary": "9.2.7.3",
+    "mutated_boundary": "9.2.7.4",
+    "probe_version": "9.2.7.3",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "9.2.7.3.",
+        "9.2.7.4."
+      ]
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-0219",
+    "vendor": "skylot",
+    "product": "skylot/jadx",
+    "description": "Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.2.",
+    "mutated_description": "Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.3.",
+    "original_boundary": "1.3.2",
+    "mutated_boundary": "1.3.3",
+    "probe_version": "1.3.2",
+    "boundary_type": "exclusive",
+    "diff_changes": [
+      [
+        "1.3.2.",
+        "1.3.3."
+      ]
+    ]
+  }
+]

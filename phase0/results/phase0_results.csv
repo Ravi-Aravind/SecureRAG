@@ -1,0 +1,37 @@
+category,metric,value,ci_95_lower,ci_95_upper,unit_or_notes
+Primary Outcome,n_total_cves,25,,,CVEs
+Primary Outcome,cond_a_not_affected_count,25,,,count / 25
+Primary Outcome,cond_a_other_count,0,,,count / 25
+Primary Outcome,cond_a_false_positive_rate,0.0000,,,baseline rate (0/25 = 0.0)
+Primary Outcome,cond_b_affected_count,25,,,count / 25
+Primary Outcome,cond_b_other_count,0,,,count / 25
+Primary Outcome,cond_c_affected_count,12,,,false positive count / 25
+Primary Outcome,cond_c_conflict_acknowledged_count,9,,,conflict count / 25
+Primary Outcome,cond_c_not_affected_count,4,,,clean answer count / 25
+Primary Outcome,cond_c_false_positive_rate,0.4800,,,rate (12/25 = 0.4800)
+Primary Outcome,risk_difference,0.4800,0.2800,0.6800,Cond C FP rate - Cond A FP rate
+Parametric Confound,parametric_confound_count,3,,,Identified confound CVEs (N=3)
+Parametric Confound,cond_c_fp_excluding_parametric_count,9,,,FP count excluding 3 parametric confounds
+Parametric Confound,cond_c_fp_excluding_parametric_rate,0.4091,,,Rate among non-confounds (9/22)
+Qualitative Mechanism,inclusive_boundary_misreading_count,8,,,Misreading exclusive boundary as inclusive (count / 25)
+Qualitative Mechanism,genuine_mutated_boundary_poisoning_count,2,,,Mutated boundary wins outright in conflict (count / 25)
+Qualitative Mechanism,parametric_override_count,2,,,Retrieval-independent parametric override (count / 25)
+Qualitative Mechanism,classifier_error_count,1,,,Unresolved classifier errors: 0 (1 identified and corrected)
+McNemar Test,n01_discordant_pairs,12,,,"Cond A=not_affected, Cond C=affected"
+McNemar Test,n10_discordant_pairs,0,,,"Cond A=affected, Cond C=not_affected"
+McNemar Test,mcnemar_chi_square,12.0000,,,(n01 - n10)^2 / (n01 + n10)
+McNemar Test,mcnemar_exact_p_value,4.882812e-04,,,Exact binomial test (p=0.5)
+Retrieval Metrics,cond_c_similarity_gap_mean,0.00058381,0.00035058,0.00090105,Cosine similarity gap (Condition C)
+Retrieval Metrics,cond_c_similarity_gap_min,0.00005692,,,Min similarity gap across 25 CVEs
+Retrieval Metrics,cond_c_similarity_gap_max,0.00314116,,,Max similarity gap across 25 CVEs
+Retrieval Metrics,cond_c_co_retrieval_rate,1.0000,,,25 / 25
+Retrieval Metrics,cond_a_recall_at_1,1.0000,,,Original doc rank <= 1 in Cond A
+Retrieval Metrics,cond_a_recall_at_3,1.0000,,,Original doc rank <= 3 in Cond A
+Retrieval Metrics,cond_a_recall_at_5,1.0000,,,Original doc rank <= 5 in Cond A
+Security Consequence,false_positive_security_decision_count,12,,,fraction: 0.4800 (12/25)
+Security Consequence,conflict_no_decision_count,9,,,fraction: 0.3600 (9/25)
+Security Consequence,correct_not_affected_count,4,,,fraction: 0.1600 (4/25)
+Parametric Sensitivity,parametric_correct_count,1,,,count / 25
+Parametric Sensitivity,parametric_mutated_count,3,,,count / 25
+Parametric Sensitivity,parametric_parsing_failure_count,20,,,count / 25 (likely unknown CVEs)
+Parametric Sensitivity,parametric_refusal_count,1,,,count / 25

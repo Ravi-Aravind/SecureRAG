@@ -1,0 +1,4 @@
+system,role,n,incorrect,incorrect_rate,risk_difference_vs_baseline,bootstrap_ci_low,bootstrap_ci_high,mcnemar_b00,mcnemar_b01,mcnemar_b10,mcnemar_b11,mcnemar_exact_p,holm_adjusted_p,interpretation
+Condition A,frozen baseline,25,0,0.0,0.0,0.0,0.0,25,0,0,0,1.0,,observed endpoint result under frozen protocol
+RobustRAG,experiment-specific retrieval adaptation,25,25,1.0,1.0,1.0,1.0,0,25,0,0,5.960464477539063e-08,1.1920928955078125e-07,observed endpoint result under frozen protocol
+NLI,experiment-specific contradiction filtering,25,20,0.8,0.8,0.64,0.96,5,20,0,0,1.9073486328125e-06,1.9073486328125e-06,observed endpoint result under frozen protocol

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 42,
+    "mcnemar": "exact two-sided",
+    "holm_family": [
+      "RobustRAG",
+      "NLI"
+    ],
+    "trustrag": "excluded"
+  },
+  "baseline": {
+    "n": 25,
+    "incorrect": 0,
+    "incorrect_rate": 0.0,
+    "baseline_incorrect": 0,
+    "baseline_rate": 0.0,
+    "risk_difference": 0.0,
+    "bootstrap_ci": [
+      0.0,
+      0.0
+    ],
+    "table": [
+      25,
+      0,
+      0,
+      0
+    ],
+    "exact_p": 1.0
+  },
+  "primary_defenses": {
+    "RobustRAG": {
+      "n": 25,
+      "incorrect": 25,
+      "incorrect_rate": 1.0,
+      "baseline_incorrect": 0,
+      "baseline_rate": 0.0,
+      "risk_difference": 1.0,
+      "bootstrap_ci": [
+        1.0,
+        1.0
+      ],
+      "table": [
+        0,
+        25,
+        0,
+        0
+      ],
+      "exact_p": 5.960464477539063e-08
+    },
+    "NLI": {
+      "n": 25,
+      "incorrect": 20,
+      "incorrect_rate": 0.8,
+      "baseline_incorrect": 0,
+      "baseline_rate": 0.0,
+      "risk_difference": 0.8,
+      "bootstrap_ci": [
+        0.64,
+        0.96
+      ],
+      "table": [
+        5,
+        20,
+        0,
+        0
+      ],
+      "exact_p": 1.9073486328125e-06
+    },
+    "ProveRAG": {
+      "n": 25,
+      "incorrect": 0,
+      "incorrect_rate": 0.0,
+      "baseline_incorrect": 0,
+      "baseline_rate": 0.0,
+      "risk_difference": 0.0,
+      "bootstrap_ci": [
+        0.0,
+        0.0
+      ],
+      "table": [
+        25,
+        0,
+        0,
+        0
+      ],
+      "exact_p": 1.0
+    }
+  },
+  "holm": {
+    "RobustRAG": 1.1920928955078125e-07,
+    "NLI": 1.9073486328125e-06
+  },
+  "confound_excluded": {
+    "excluded_cves": [
+      "CVE-2022-27616",
+      "CVE-2022-42466",
+      "CVE-2023-0787"
+    ],
+    "results": {
+      "RobustRAG": {
+        "n": 22,
+        "incorrect": 22,
+        "incorrect_rate": 1.0,
+        "baseline_incorrect": 0,
+        "baseline_rate": 0.0,
+        "risk_difference": 1.0,
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "table": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "exact_p": 4.76837158203125e-07
+      },
+      "NLI": {
+        "n": 22,
+        "incorrect": 17,
+        "incorrect_rate": 0.7727272727272727,
+        "baseline_incorrect": 0,
+        "baseline_rate": 0.0,
+        "risk_difference": 0.7727272727272727,
+        "bootstrap_ci": [
+          0.5909090909090909,
+          0.9545454545454546
+        ],
+        "table": [
+          5,
+          17,
+          0,
+          0
+        ],
+        "exact_p": 1.52587890625e-05
+      },
+      "ProveRAG": {
+        "n": 22,
+        "incorrect": 0,
+        "incorrect_rate": 0.0,
+        "baseline_incorrect": 0,
+        "baseline_rate": 0.0,
+        "risk_difference": 0.0,
+        "bootstrap_ci": [
+          0.0,
+          0.0
+        ],
+        "table": [
+          22,
+          0,
+          0,
+          0
+        ],
+        "exact_p": 1.0
+      }
+    }
+  },
+  "provenance_auxiliary": {
+    "citation_counts": {
+      "original_cited": 25
+    },
+    "run_id": "20260917T163237Z_35f33821",
+    "call_accounting": {
+      "primary_llm_invocations": 25,
+      "auxiliary_evaluator_invocations": 25,
+      "total_llm_invocations": 50,
+      "successful_primary_calls": 25,
+      "successful_auxiliary_calls": 25,
+      "successful_calls": 50,
+      "primary_failures": 0,
+      "auxiliary_failures": 0,
+      "failed_calls": 0,
+      "actual_api_calls": 50,
+      "parsing_errors": 0
+    }
+  }
+}

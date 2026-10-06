@@ -1,0 +1,4 @@
+defense,mechanism,count
+RobustRAG,classifier_error,25
+NLI,inclusive_boundary_misreading,5
+NLI,unresolved,20

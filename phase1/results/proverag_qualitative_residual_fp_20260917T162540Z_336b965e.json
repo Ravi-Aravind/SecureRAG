@@ -1,0 +1,6 @@
+{
+  "run_id": "20260917T162540Z_336b965e",
+  "selection_rule": "First up to five primary false positives in frozen Phase 0 selected_cves.json order.",
+  "analysis_status": "not_applicable_due_to_zero_successful_primary_calls",
+  "cases": []
+}

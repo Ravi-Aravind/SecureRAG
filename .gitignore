@@ -1,0 +1,70 @@
+﻿# ==============================
+# Secrets / local configuration
+# ==============================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.crt
+credentials.json
+secrets/
+private/
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================
+# IDE / editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Temporary / generated files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+temp_report.json
+phase0_extraction.txt
+phase0_report_out.txt
+
+# ==============================
+# Archives / duplicate packages
+# ==============================
+*.zip
+
+# ==============================
+# Model / ML caches
+# ==============================
+.cache/
+models/
+checkpoints/
+huggingface/
+transformers_cache/
+sentence_transformers/

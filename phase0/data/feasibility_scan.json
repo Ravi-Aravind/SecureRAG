@@ -1,0 +1,756 @@
+[
+  {
+    "cve_id": "CVE-2024-28744",
+    "vendor": "FURUNO SYSTEMS Co.,Ltd.",
+    "product": "ACERA 9010-08",
+    "date_published": "2024-04-08",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "The password is empty in the initial configuration of ACERA 9010-08 firmware v02.04 and earlier, and ACERA 9010-24 firmware v02.04 and earlier. An unauthenticated attacker may log in to the product wi",
+    "notes": [
+      "skipped_component_count_2:02.04",
+      "skipped_component_count_2:02.04"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-2250",
+    "vendor": "GitLab",
+    "product": "GitLab",
+    "date_published": "2022-07-01",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "14.10.5",
+      "15.0.4",
+      "15.1.1"
+    ],
+    "chosen_version": "14.10.5",
+    "mutated_version": "14.10.6",
+    "description_snippet": "An open redirect vulnerability in GitLab EE/CE affecting all versions from 11.1 prior to 14.10.5, 15.0 prior to 15.0.4, and 15.1 prior to 15.1.1, allows an attacker to redirect users to an arbitrary l",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-0960",
+    "vendor": "star7th",
+    "product": "star7th/showdoc",
+    "date_published": "2022-03-14",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.10.4"
+    ],
+    "chosen_version": "2.10.4",
+    "mutated_version": "2.10.5",
+    "description_snippet": "Stored XSS viva .properties file upload in GitHub repository star7th/showdoc prior to 2.10.4.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-35708",
+    "vendor": "apollo13themes",
+    "product": "Rife Free",
+    "date_published": "2024-06-08",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.4.19"
+    ],
+    "chosen_version": "2.4.19",
+    "mutated_version": "2.4.20",
+    "description_snippet": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in apollo13themes Rife Free allows Stored XSS.This issue affects Rife Free: from n/a through 2",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-23610",
+    "vendor": "glpi-project",
+    "product": "glpi",
+    "date_published": "2023-01-25",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "9.5.12"
+    ],
+    "chosen_version": "9.5.12",
+    "mutated_version": "9.5.13",
+    "description_snippet": "GLPI is a Free Asset and IT Management Software package. Versions prior to 9.5.12 and 10.0.6 are vulnerable to Improper Privilege Management. Any user having access to the standard interface can expor",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-0965",
+    "vendor": "silabs.com",
+    "product": "Gecko Platform",
+    "date_published": "2023-05-18",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "4.2.1"
+    ],
+    "chosen_version": "4.2.1",
+    "mutated_version": "4.2.2",
+    "description_snippet": "Compiler removal of buffer clearing in sli_cryptoacc_transparent_key_agreement in Silicon Labs Gecko Platform SDK v4.2.1 and earlier results in key material duplication to RAM.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-4572",
+    "vendor": "unspecified",
+    "product": "UBI Reader",
+    "date_published": "2022-12-17",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.8.0"
+    ],
+    "chosen_version": "0.8.0",
+    "mutated_version": "0.8.1",
+    "description_snippet": "A vulnerability, which was classified as problematic, has been found in UBI Reader up to 0.8.0. Affected by this issue is the function ubireader_extract_files of the file ubireader/ubifs/output.py of ",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-34155",
+    "vendor": "miniOrange",
+    "product": "OAuth Single Sign On – SSO (OAuth Client)",
+    "date_published": "2023-07-18",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "6.23.3"
+    ],
+    "chosen_version": "6.23.3",
+    "mutated_version": "6.23.4",
+    "description_snippet": "Improper Authentication vulnerability in miniOrange OAuth Single Sign On – SSO (OAuth Client) plugin allows Authentication Bypass.This issue affects OAuth Single Sign On – SSO (OAuth Client): from n/a",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-35190",
+    "vendor": "asterisk",
+    "product": "asterisk",
+    "date_published": "2024-05-17",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "18.23.1"
+    ],
+    "chosen_version": "18.23.1",
+    "mutated_version": "18.23.2",
+    "description_snippet": "Asterisk is an open source private branch exchange and telephony toolkit. After upgrade to 18.23.0, ALL unauthorized SIP requests are identified as PJSIP Endpoint of local asterisk server. This vulner",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-29228",
+    "vendor": "envoyproxy",
+    "product": "envoy",
+    "date_published": "2022-06-09",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.22.1"
+    ],
+    "chosen_version": "1.22.1",
+    "mutated_version": "1.22.2",
+    "description_snippet": "Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 the OAuth filter would try to invoke the remaining filters in the chain after emitting a local response, which triggers an A",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-31139",
+    "vendor": "JetBrains",
+    "product": "TeamCity",
+    "date_published": "2024-03-28",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "In JetBrains TeamCity before 2024.03 xXE was possible in the Maven build steps detector",
+    "notes": [
+      "skipped_calendar:2024.03"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-35689",
+    "vendor": "Analytify",
+    "product": "Analytify",
+    "date_published": "2024-06-08",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "5.2.3"
+    ],
+    "chosen_version": "5.2.3",
+    "mutated_version": "5.2.4",
+    "description_snippet": "Cross-Site Request Forgery (CSRF) vulnerability in Analytify.This issue affects Analytify: from n/a through 5.2.3.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-5249",
+    "vendor": "Akana",
+    "product": "Akana API Platform",
+    "date_published": "2024-07-30",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "In versions of Akana API Platform prior to 2024.1.0, SAML tokens can be replayed.",
+    "notes": [
+      "skipped_calendar:2024.1.0"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6761",
+    "vendor": "Thecosy",
+    "product": "IceCMS",
+    "date_published": "2023-12-13",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.0.1"
+    ],
+    "chosen_version": "2.0.1",
+    "mutated_version": "2.0.2",
+    "description_snippet": "A vulnerability, which was classified as problematic, has been found in Thecosy IceCMS up to 2.0.1. This issue affects some unknown processing of the component User Data Handler. The manipulation lead",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-26667",
+    "vendor": "Delta Electronics",
+    "product": "DIAEnergie",
+    "date_published": "2022-03-29",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.8.02.004"
+    ],
+    "chosen_version": "1.8.02.004",
+    "mutated_version": "1.8.02.5",
+    "description_snippet": "Delta Electronics DIAEnergie (All versions prior to 1.8.02.004) has a blind SQL injection vulnerability that exists in GetDemandAnalysisData. This allows an attacker to inject arbitrary SQL queries, r",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-22141",
+    "vendor": "Cozmoslabs",
+    "product": "Profile Builder Pro",
+    "date_published": "2024-01-24",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "3.10.0"
+    ],
+    "chosen_version": "3.10.0",
+    "mutated_version": "3.10.1",
+    "description_snippet": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Cozmoslabs Profile Builder Pro.This issue affects Profile Builder Pro: from n/a through 3.10.0.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-41866",
+    "vendor": "Team Plugins360",
+    "product": "Automatic YouTube Gallery",
+    "date_published": "2024-12-13",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.3.3"
+    ],
+    "chosen_version": "2.3.3",
+    "mutated_version": "2.3.4",
+    "description_snippet": "Missing Authorization vulnerability in Team Plugins360 Automatic YouTube Gallery allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Automatic YouTube Gallery: f",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-1233",
+    "vendor": "medialize",
+    "product": "medialize/uri.js",
+    "date_published": "2022-04-04",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.19.11"
+    ],
+    "chosen_version": "1.19.11",
+    "mutated_version": "1.19.12",
+    "description_snippet": "URL Confusion When Scheme Not Supplied in GitHub repository medialize/uri.js prior to 1.19.11.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-1157",
+    "vendor": "GitLab",
+    "product": "GitLab",
+    "date_published": "2022-04-11",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "14.7.7",
+      "14.8.5",
+      "14.9.2"
+    ],
+    "chosen_version": "14.7.7",
+    "mutated_version": "14.7.8",
+    "description_snippet": "Missing sanitization of logged exception messages in all versions prior to 14.7.7, 14.8 prior to 14.8.5, and 14.9 prior to 14.9.2 of GitLab CE/EE causes potential sensitive values in invalid URLs to b",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-28149",
+    "vendor": "Jenkins project",
+    "product": "Jenkins Job and Node ownership Plugin",
+    "date_published": "2022-03-29",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.13.0"
+    ],
+    "chosen_version": "0.13.0",
+    "mutated_version": "0.13.1",
+    "description_snippet": "Jenkins Job and Node ownership Plugin 0.13.0 and earlier does not escape the names of the secondary owners, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-4186",
+    "vendor": "Google",
+    "product": "Chrome",
+    "date_published": "2022-11-29",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "108.0.5359.71"
+    ],
+    "chosen_version": "108.0.5359.71",
+    "mutated_version": "108.0.5359.72",
+    "description_snippet": "Insufficient validation of untrusted input in Downloads in Google Chrome prior to 108.0.5359.71 allowed an attacker who convinced a user to install a malicious extension to bypass Downloads restrictio",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-0133",
+    "vendor": "Google",
+    "product": "Chrome",
+    "date_published": "2023-01-10",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "109.0.5414.74"
+    ],
+    "chosen_version": "109.0.5414.74",
+    "mutated_version": "109.0.5414.75",
+    "description_snippet": "Inappropriate implementation in in Permission prompts in Google Chrome on Android prior to 109.0.5414.74 allowed a remote attacker to bypass main origin permission delegation via a crafted HTML page. ",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-50846",
+    "vendor": "RegistrationMagic",
+    "product": "RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login",
+    "date_published": "2023-12-28",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "5.2.4.5"
+    ],
+    "chosen_version": "5.2.4.5",
+    "mutated_version": "5.2.4.6",
+    "description_snippet": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in RegistrationMagic RegistrationMagic – Custom Registration Forms, User Registration, Payment, and U",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-23787",
+    "vendor": "SHARP CORPORATION",
+    "product": "Energy Management Controller with Cloud Services",
+    "date_published": "2024-02-14",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.1.9.1"
+    ],
+    "chosen_version": "0.1.9.1",
+    "mutated_version": "0.1.9.2",
+    "description_snippet": "Path traversal vulnerability in Energy Management Controller with Cloud Services JH-RVB1 /JH-RV11 Ver.B0.1.9.1 and earlier allows a network-adjacent unauthenticated attacker to obtain an arbitrary fil",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-1002",
+    "vendor": "Mattermost",
+    "product": "Mattermost",
+    "date_published": "2022-03-18",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "6.3.0"
+    ],
+    "chosen_version": "6.3.0",
+    "mutated_version": "6.3.1",
+    "description_snippet": "Mattermost 6.3.0 and earlier fails to properly sanitize the HTML content in the email invitation sent to guest users, which allows registered users with special permissions to invite guest users to in",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-10654",
+    "vendor": "TOTOLINK",
+    "product": "LR350",
+    "date_published": "2024-11-01",
+    "passed": false,
+    "failure_reason": "excluded_mutation_unsafe:version_appears_2_times_ambiguous",
+    "usable_versions": [
+      "9.3.5"
+    ],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "A vulnerability has been found in TOTOLINK LR350 up to 9.3.5u.6369 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /formLoginAuth.htm. The manipulati",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-43421",
+    "vendor": "Jenkins project",
+    "product": "Jenkins Tuleap Git Branch Source Plugin",
+    "date_published": "2022-10-19",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "3.2.4"
+    ],
+    "chosen_version": "3.2.4",
+    "mutated_version": "3.2.5",
+    "description_snippet": "A missing permission check in Jenkins Tuleap Git Branch Source Plugin 3.2.4 and earlier allows unauthenticated attackers to trigger Tuleap projects whose configured repository matches the attacker-spe",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-33634",
+    "vendor": "Piotnet",
+    "product": "Piotnet Addons For Elementor Pro",
+    "date_published": "2024-04-29",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "7.1.17"
+    ],
+    "chosen_version": "7.1.17",
+    "mutated_version": "7.1.18",
+    "description_snippet": "Server-Side Request Forgery (SSRF) vulnerability in Piotnet Piotnet Addons For Elementor Pro.This issue affects Piotnet Addons For Elementor Pro: from n/a through 7.1.17.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-29770",
+    "vendor": "Pretty Links",
+    "product": "Shortlinks by Pretty Links",
+    "date_published": "2024-03-27",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "3.6.2"
+    ],
+    "chosen_version": "3.6.2",
+    "mutated_version": "3.6.3",
+    "description_snippet": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Pretty Links Shortlinks by Pretty Links allows Reflected XSS.This issue affects Shortlinks by Pret",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-32570",
+    "vendor": "Archetyped",
+    "product": "Cornerstone",
+    "date_published": "2024-04-18",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.8.0"
+    ],
+    "chosen_version": "0.8.0",
+    "mutated_version": "0.8.1",
+    "description_snippet": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Archetyped Cornerstone allows Reflected XSS.This issue affects Cornerstone: from n/a through 0.8.0",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-6730",
+    "vendor": "huggingface",
+    "product": "huggingface/transformers",
+    "date_published": "2023-12-19",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "Deserialization of Untrusted Data in GitHub repository huggingface/transformers prior to 4.36.",
+    "notes": [
+      "skipped_component_count_2:4.36"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-41677",
+    "vendor": "Fortinet",
+    "product": "FortiOS",
+    "date_published": "2024-04-09",
+    "passed": false,
+    "failure_reason": "excluded_multi_product",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "A insufficiently protected credentials in Fortinet FortiProxy 7.4.0, 7.2.0 through 7.2.6, 7.0.0 through 7.0.12, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7, Fo",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-4317",
+    "vendor": "GitLab",
+    "product": "DAST",
+    "date_published": "2023-03-09",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "3.0.51"
+    ],
+    "chosen_version": "3.0.51",
+    "mutated_version": "3.0.52",
+    "description_snippet": "An issue has been discovered in GitLab DAST analyzer affecting all versions starting from 1.47 before 3.0.51, which sends custom request headers in redirects.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-47130",
+    "vendor": "yiisoft",
+    "product": "yii",
+    "date_published": "2023-11-14",
+    "passed": false,
+    "failure_reason": "excluded_mutation_unsafe:version_appears_2_times_ambiguous",
+    "usable_versions": [
+      "1.1.29"
+    ],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "Yii is an open source PHP web framework. yiisoft/yii before version 1.1.29 are vulnerable to Remote Code Execution (RCE) if the application calls `unserialize()` on arbitrary user input. An attacker m",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-21983",
+    "vendor": "NetApp",
+    "product": "StorageGRID",
+    "date_published": "2024-02-16",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "StorageGRID (formerly StorageGRID Webscale) versions prior to 11.8 \nare susceptible to a Denial of Service (DoS) vulnerability. Successful \nexploit by an authenticated attacker could lead to an out of",
+    "notes": [
+      "skipped_component_count_2:11.8"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-23825",
+    "vendor": "Brainstorm Force",
+    "product": "Spectra",
+    "date_published": "2024-12-09",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.3.0"
+    ],
+    "chosen_version": "2.3.0",
+    "mutated_version": "2.3.1",
+    "description_snippet": "Missing Authorization vulnerability in Brainstorm Force Spectra allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Spectra: from n/a through 2.3.0.",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-42487",
+    "vendor": "cilium",
+    "product": "cilium",
+    "date_published": "2024-08-15",
+    "passed": false,
+    "failure_reason": "excluded_mutation_unsafe:version_appears_2_times_ambiguous",
+    "usable_versions": [
+      "1.15.8",
+      "1.16.1"
+    ],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "Cilium is a networking, observability, and security solution with an eBPF-based dataplane. In the 1.15 branch prior to 1.15.8 and the 1.16 branch prior to 1.16.1, Gateway API HTTPRoutes and GRPCRoutes",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-51870",
+    "vendor": "dragwyb",
+    "product": "Ultimate Flipbox Addon for Elementor",
+    "date_published": "2024-11-19",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.0.4"
+    ],
+    "chosen_version": "1.0.4",
+    "mutated_version": "1.0.5",
+    "description_snippet": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in dragwyb Ultimate Flipbox Addon for Elementor ultimate-flipbox-addon-for-elementor allows Stored XS",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-0317",
+    "vendor": "Google LLC",
+    "product": "go-attestation",
+    "date_published": "2022-02-04",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.3.3"
+    ],
+    "chosen_version": "0.3.3",
+    "mutated_version": "0.3.4",
+    "description_snippet": "An improper input validation vulnerability in go-attestation before 0.3.3 allows local users to provide a maliciously-formed Quote over no/some PCRs, causing AKPublic.Verify to succeed despite the inc",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-37169",
+    "vendor": "jasonraimondi",
+    "product": "url-to-png",
+    "date_published": "2024-06-10",
+    "passed": false,
+    "failure_reason": "excluded_mutation_unsafe:version_appears_2_times_ambiguous",
+    "usable_versions": [
+      "2.0.3"
+    ],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "@jmondi/url-to-png is a self-hosted URL to PNG utility. Versions prior to 2.0.3 are vulnerable to arbitrary file read if a threat actor uses the Playright's screenshot feature to exploit the file wrap",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-41881",
+    "vendor": "Philip Hazel",
+    "product": "SDoP",
+    "date_published": "2024-07-29",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "SDoP versions prior to 1.11 fails to handle appropriately some parameters inside the input data, resulting in a stack-based buffer overflow vulnerability. When a user of the affected product is tricke",
+    "notes": [
+      "skipped_component_count_2:1.11"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-38383",
+    "vendor": "IBM",
+    "product": "Cloud Pak for Security",
+    "date_published": "2024-06-28",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.10.11.0",
+      "1.10.21.0"
+    ],
+    "chosen_version": "1.10.11.0",
+    "mutated_version": "1.10.11.1",
+    "description_snippet": "IBM Cloud Pak for Security (CP4S) 1.10.0.0 through 1.10.11.0 and IBM QRadar Software Suite 1.10.12.0 through 1.10.21.0 allows web pages to be stored locally which can be read by another user on the sy",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-32511",
+    "vendor": "Astoundify",
+    "product": "Simple Registration for WooCommerce",
+    "date_published": "2024-05-17",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "1.5.6"
+    ],
+    "chosen_version": "1.5.6",
+    "mutated_version": "1.5.7",
+    "description_snippet": "Improper Privilege Management vulnerability in Astoundify Simple Registration for WooCommerce allows Privilege Escalation.This issue affects Simple Registration for WooCommerce: from n/a through 1.5.6",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-41890",
+    "vendor": "Sustainsys",
+    "product": "Saml2",
+    "date_published": "2023-09-19",
+    "passed": false,
+    "failure_reason": "excluded_no_version_extracted",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "Sustainsys.Saml2 library adds SAML2P support to ASP.NET web sites, allowing the web site to act as a SAML2 Service Provider. \nPrior to versions 1.0.3 and 2.9.2, when a response is processed, the issue",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2023-30860",
+    "vendor": "WWBN",
+    "product": "AVideo",
+    "date_published": "2023-05-08",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "WWBN AVideo is an open source video platform. In AVideo prior to version 12.4, a normal user can make a Meeting Schedule where the user can invite another user in that Meeting, but it does not properl",
+    "notes": [
+      "skipped_component_count_2:12.4"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-23784",
+    "vendor": "Fortinet",
+    "product": "FortiWeb",
+    "date_published": "2023-02-16",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "7.0.2",
+      "6.3.20"
+    ],
+    "chosen_version": "7.0.2",
+    "mutated_version": "7.0.3",
+    "description_snippet": "A relative path traversal in Fortinet FortiWeb version 7.0.0 through 7.0.2, FortiWeb version 6.3.6 through 6.3.20, FortiWeb 6.4 all versions allows attacker to information disclosure via specially cra",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-36896",
+    "vendor": "Jenkins project",
+    "product": "Jenkins Compuware Source Code Download for Endevor, PDS, and ISPW Plugin",
+    "date_published": "2022-07-27",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "2.0.12"
+    ],
+    "chosen_version": "2.0.12",
+    "mutated_version": "2.0.13",
+    "description_snippet": "A missing permission check in Jenkins Compuware Source Code Download for Endevor, PDS, and ISPW Plugin 2.0.12 and earlier allows attackers with Overall/Read permission to enumerate hosts and ports of ",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2022-47894",
+    "vendor": "Apache Software Foundation",
+    "product": "Apache Zeppelin SAP",
+    "date_published": "2024-04-09",
+    "passed": true,
+    "failure_reason": null,
+    "usable_versions": [
+      "0.11.0"
+    ],
+    "chosen_version": "0.11.0",
+    "mutated_version": "0.11.1",
+    "description_snippet": "Improper Input Validation vulnerability in Apache Zeppelin SAP.This issue affects Apache Zeppelin SAP: from 0.8.0 before 0.11.0.\n\nAs this project is retired, we do not plan to release a version that f",
+    "notes": []
+  },
+  {
+    "cve_id": "CVE-2024-37349",
+    "vendor": "Absolute Software",
+    "product": "Secure Access",
+    "date_published": "2024-06-20",
+    "passed": false,
+    "failure_reason": "excluded_no_usable_version_after_filters",
+    "usable_versions": [],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "There is a cross-site scripting vulnerability in the\nmanagement UI of Absolute Secure Access prior to version 13.06. Attackers with\nsystem administrator permissions can interfere with other system\nadm",
+    "notes": [
+      "skipped_component_count_2:13.06"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-30622",
+    "vendor": "clusternet",
+    "product": "clusternet",
+    "date_published": "2023-04-24",
+    "passed": false,
+    "failure_reason": "excluded_mutation_unsafe:version_appears_2_times_ambiguous",
+    "usable_versions": [
+      "0.15.2"
+    ],
+    "chosen_version": null,
+    "mutated_version": null,
+    "description_snippet": "Clusternet is a general-purpose system for controlling Kubernetes clusters across different environments. An issue in clusternet prior to version 0.15.2 can be leveraged to lead to a cluster-level pri",
+    "notes": []
+  }
+]
