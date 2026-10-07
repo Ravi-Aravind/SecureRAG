@@ -1,0 +1,68 @@
+{
+  "run_status": "COMPLETED",
+  "created_utc": "2026-10-07T15:22:06.638199+00:00",
+  "python": "3.12.0",
+  "primary_command": "python phase2/runners/run_evaluation.py --source all --snapshot-root phase2/data/nvd",
+  "metrics_command": "python phase2/runners/run_metrics.py",
+  "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+  "snapshot_hash": "2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+  "snapshot_manifest_sha256": "4ce630f33cc457504034da17b7c4bf97a63e396ec86844190517a240cd627e5d",
+  "phase0_frozen_hashes": {
+    "selected_cves.json": "cef5d48481ee4df28884a411dc778f555c9538466aedab72adea9df7ac8a472f",
+    "documents.json": "3a25bfa8f755374b9ba46a0dccfdf25de4984b8480d6ea983abefbb570c532ed",
+    "embeddings.json": "61d89fa41cf980125bc43bb67f42b75742b08439fd2eed8d33be617cf0f8dda4",
+    "retrieval_results.json": "1cf6d170d6f343ecd37b1e719e1736db339f9d2b5c6dfbd81226c3d41ea5b27d",
+    "experiment_records.json": "8939145a99e8a001823ec637951d6753237de27bf01e4f74e9a79ddfdc7acfc8",
+    "analysis_ready.csv": "a9f4fa270988fb28dec272444527e4ab0624685a07cfdf7924f5113aa14934bc"
+  },
+  "phase0_hash_validation": "PASS",
+  "phase1_files_modified_by_run": false,
+  "nvd_files": [
+    {
+      "path": "nvdcve-2.0-2022.json.gz",
+      "sha256": "032cf67700da4f0de1004fe2b944f9d2a1f2f6db81a05591f509b9d80958d8d0"
+    },
+    {
+      "path": "nvdcve-2.0-2023.json.gz",
+      "sha256": "4be8864b85fda7c0a4de528899028dd285dee09c0968565d5d81cac469fd2c6a"
+    },
+    {
+      "path": "nvdcve-2.0-2024.json.gz",
+      "sha256": "2f58760b50703544914d6fb62d4d809b9176a79b8c82f28aee16704eb0942187"
+    }
+  ],
+  "result_files": [
+    {
+      "path": "phase2/results/raw/A_claimguard.json",
+      "sha256": "cd9b3136df6516040ed2f705ef2337b5d372a5e43937de8f33013d02dbfc7bf9"
+    },
+    {
+      "path": "phase2/results/raw/A+CG_claimguard.json",
+      "sha256": "2ae1bbd6217a988953553b77ad421c3199ac8f79a22644bcbd02f3b7d62b9136"
+    },
+    {
+      "path": "phase2/results/raw/C_claimguard.json",
+      "sha256": "1945e96ae856c27deac98975c7f1adc7e2cc2c8ab486b514e9bc81e950cf7460"
+    },
+    {
+      "path": "phase2/results/raw/C+CG_claimguard.json",
+      "sha256": "4ef03b9387282ddf6c4906afb6463e99d1cc5aa3d7aac07b961a935de3ae0f16"
+    },
+    {
+      "path": "phase2/results/derived/metrics.json",
+      "sha256": "6148efa71394dee6513e6ceed3127fae6ceb4ee0614c4d179b3ab205af143a23"
+    },
+    {
+      "path": "phase2/results/derived/phase2_final_report.md",
+      "sha256": "671b8e9d9dbe0428d80604eadd27c7f1808ece3f2298315a0e72325d73acb5e0"
+    },
+    {
+      "path": "phase2/results/audits/golden_cve_verification.json",
+      "sha256": "217ebf4243f5fe81a590233582c4db62cf52b78ae7692c9c777cf800ffb177f5"
+    },
+    {
+      "path": "phase2/results/audits/nvd_selected_cve_coverage.json",
+      "sha256": "cdd322377e6cdb2532a4f5fc97afb44291f3da59b82c0851f7020f6081432b7e"
+    }
+  ]
+}

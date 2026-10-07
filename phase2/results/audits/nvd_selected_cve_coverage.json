@@ -1,0 +1,198 @@
+{
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "total_records": 98261,
+  "files": [
+    {
+      "path": "nvdcve-2.0-2022.json.gz",
+      "sha256": "032cf67700da4f0de1004fe2b944f9d2a1f2f6db81a05591f509b9d80958d8d0",
+      "record_count": 27556,
+      "official_metadata": {
+        "lastModifiedDate": "2026-10-07T03:02:23-04:00",
+        "size": "216598841",
+        "zipSize": "18352170",
+        "gzSize": "18352034",
+        "sha256": "9AB3E2C50727604293C9645ADB23D00ABF106FB4AC37DED2219A3E8D2CE70579"
+      }
+    },
+    {
+      "path": "nvdcve-2.0-2023.json.gz",
+      "sha256": "4be8864b85fda7c0a4de528899028dd285dee09c0968565d5d81cac469fd2c6a",
+      "record_count": 31449,
+      "official_metadata": {
+        "lastModifiedDate": "2026-10-07T03:01:59-04:00",
+        "size": "247562566",
+        "zipSize": "20188918",
+        "gzSize": "20188782",
+        "sha256": "5ACBDD109B11D7D526EDBF3D6DF4EC5293F104564F763DFDA84B4A95C0BBA0EE"
+      }
+    },
+    {
+      "path": "nvdcve-2.0-2024.json.gz",
+      "sha256": "2f58760b50703544914d6fb62d4d809b9176a79b8c82f28aee16704eb0942187",
+      "record_count": 39256,
+      "official_metadata": {
+        "lastModifiedDate": "2026-10-07T03:01:30-04:00",
+        "size": "291989292",
+        "zipSize": "25020011",
+        "gzSize": "25019875",
+        "sha256": "ED3F2F4C04E41D08F53F988E911B8CFA2CD84CCF5B77F7377FB75815FBC7DC38"
+      }
+    }
+  ],
+  "selected_cve_coverage": [
+    {
+      "cve": "CVE-2022-29225",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-29225",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-0666",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-0666",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2023-21448",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-21448",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2023-0787",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-0787",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-4847",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-4847",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-2931",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-2931",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-27616",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-27616",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2024-53987",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2024-53987",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-23913",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-23913",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2023-6709",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-6709",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-0804",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-0804",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-0776",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-0776",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-25169",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-25169",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-4719",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-4719",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2023-0248",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-0248",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2024-3516",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2024-3516",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-0696",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-0696",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2024-6772",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2024-6772",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-42466",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-42466",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2024-53984",
+      "state": "FOUND_NO_APPLICABILITY",
+      "record_id": "CVE-2024-53984",
+      "has_configurations": false
+    },
+    {
+      "cve": "CVE-2023-6509",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-6509",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-4800",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-4800",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2024-21115",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2024-21115",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2023-21927",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2023-21927",
+      "has_configurations": true
+    },
+    {
+      "cve": "CVE-2022-0219",
+      "state": "FOUND_APPLICABILITY",
+      "record_id": "CVE-2022-0219",
+      "has_configurations": true
+    }
+  ]
+}

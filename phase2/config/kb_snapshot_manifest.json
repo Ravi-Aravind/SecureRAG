@@ -1,0 +1,80 @@
+{
+  "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+  "status": "READY",
+  "kb_name": "NVD",
+  "source": "NVD",
+  "source_url": "https://nvd.nist.gov/vuln/data-feeds",
+  "source_version": "NVD CVE JSON 2.0 annual feeds",
+  "acquisition_date": "2026-10-07",
+  "schema_version": "2.0",
+  "record_count": 98261,
+  "selected_cve_count": 25,
+  "selected_cve_coverage": {
+    "selected_count": 25,
+    "found_count": 25,
+    "with_applicability": 24,
+    "without_applicability": [
+      "CVE-2024-53984"
+    ],
+    "audit_file": "results/audits/nvd_selected_cve_coverage.json"
+  },
+  "files": [
+    {
+      "path": "nvdcve-2.0-2022.json.gz",
+      "sha256": "032cf67700da4f0de1004fe2b944f9d2a1f2f6db81a05591f509b9d80958d8d0",
+      "record_count": 27556,
+      "nvd_meta": "nvdcve-2.0-2022.meta",
+      "official_uncompressed_sha256": "9AB3E2C50727604293C9645ADB23D00ABF106FB4AC37DED2219A3E8D2CE70579",
+      "official_uncompressed_size": 216598841,
+      "nvd_last_modified": "2026-10-07T03:02:23-04:00"
+    },
+    {
+      "path": "nvdcve-2.0-2023.json.gz",
+      "sha256": "4be8864b85fda7c0a4de528899028dd285dee09c0968565d5d81cac469fd2c6a",
+      "record_count": 31449,
+      "nvd_meta": "nvdcve-2.0-2023.meta",
+      "official_uncompressed_sha256": "5ACBDD109B11D7D526EDBF3D6DF4EC5293F104564F763DFDA84B4A95C0BBA0EE",
+      "official_uncompressed_size": 247562566,
+      "nvd_last_modified": "2026-10-07T03:01:59-04:00"
+    },
+    {
+      "path": "nvdcve-2.0-2024.json.gz",
+      "sha256": "2f58760b50703544914d6fb62d4d809b9176a79b8c82f28aee16704eb0942187",
+      "record_count": 39256,
+      "nvd_meta": "nvdcve-2.0-2024.meta",
+      "official_uncompressed_sha256": "ED3F2F4C04E41D08F53F988E911B8CFA2CD84CCF5B77F7377FB75815FBC7DC38",
+      "official_uncompressed_size": 291989292,
+      "nvd_last_modified": "2026-10-07T03:01:30-04:00"
+    }
+  ],
+  "source_references": [
+    "https://nvd.nist.gov/vuln/data-feeds",
+    "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2022.json.gz",
+    "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2023.json.gz",
+    "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.json.gz"
+  ],
+  "validation_status": "PASSED",
+  "notes": "Official annual NVD 2.0 vulnerability gzip feeds acquired directly from nvd.nist.gov. File hashes, record counts, and content-derived ID are finalized by phase2/validation/pin_nvd_snapshot.py after NVD .meta validation.",
+  "acquisition_timestamp_utc": "2026-10-07T14:50:25.383431+00:00",
+  "metadata_files": [
+    {
+      "path": "nvdcve-2.0-2022.meta",
+      "sha256": "aaad6bab70d28a436dc29af4729e44f434bec639e46ccafffc6ee7485170f349"
+    },
+    {
+      "path": "nvdcve-2.0-2023.meta",
+      "sha256": "7aaf109a851cd669c62302039aa87174c09b304d41a70d3531e1794dd3cee1d0"
+    },
+    {
+      "path": "nvdcve-2.0-2024.meta",
+      "sha256": "236d935820eab3e9d8a11e9b27be58eae1bf8a22e284011360ea2e5db75e26b1"
+    }
+  ],
+  "snapshot_hash_algorithm": "SHA-256",
+  "snapshot_hash": "2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+  "source_years": [
+    2022,
+    2023,
+    2024
+  ]
+}

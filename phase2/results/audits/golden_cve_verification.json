@@ -1,0 +1,80 @@
+{
+  "source_record_id": "CVE-2022-29225_Condition_C_Type_C",
+  "generated_answer": "Yes, envoy version 1.22.1 is affected by CVE-2022-29225, as the vulnerability exists in versions prior to 1.22.2.",
+  "verification": {
+    "claim": {
+      "cve": "CVE-2022-29225",
+      "vendor": "envoyproxy",
+      "product": "envoy",
+      "claim_type": "affected_version",
+      "claimed_version": "1.22.1",
+      "predicted_status": "affected",
+      "stated_boundary": {
+        "operator": "<",
+        "version": "1.22.2"
+      },
+      "extraction_status": "EXTRACTED",
+      "extraction_reason": null
+    },
+    "provenance": {
+      "kb_name": "NVD",
+      "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+      "cve": "CVE-2022-29225",
+      "cpe_match_criteria": [
+        "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*"
+      ],
+      "matched_cpe": [
+        "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*"
+      ],
+      "cpe_resolution": "RESOLVED",
+      "applicability_state": "RESOLVED",
+      "applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                "tested_version": "1.22.1",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "1.22.1",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "version_resolver": "numeric-dot-v1",
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                "tested_version": "1.22.1",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "1.22.1",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "implementation_version": "claimguard-1.0.0",
+      "verdict": "CONTRADICTED",
+      "reason": "AUTHORITATIVE_CONTRADICTION"
+    }
+  }
+}

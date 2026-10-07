@@ -1,0 +1,14 @@
+specification: ClaimGuard Phase 2 v1.0
+matrix: [A, A+CG, C, C+CG]
+primary_comparison: [C, C+CG]
+control_comparison: [A, A+CG]
+knowledge_base: NVD
+snapshot_manifest: config/kb_snapshot_manifest.json
+frozen_inputs:
+  phase0_records: ../phase0/data/experiment_records.json
+  phase1_nli: ../phase1/results/nli_raw_results_7de9a5ba-aa04-4651-ba45-702de40d6632.json
+  phase1_proverag: ../phase1/results/proverag_raw_results_20260917T163237Z_35f33821.json
+  phase0_hash_manifest: ../phase1/validation/phase0_frozen_hashes.json
+statistics:
+  bootstrap_resamples: 10000
+  seed: 42

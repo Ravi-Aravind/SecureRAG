@@ -1,0 +1,2316 @@
+{
+  "status": "PRIMARY_CLAIMGUARD",
+  "records": [
+    {
+      "cve": "CVE-2022-29225",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-29225_Condition_C_Type_C",
+      "generated_answer": "Yes, envoy version 1.22.1 is affected by CVE-2022-29225, as the vulnerability exists in versions prior to 1.22.2.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "genuine_mutated_boundary_poisoning",
+      "extracted_claim": {
+        "cve": "CVE-2022-29225",
+        "vendor": "envoyproxy",
+        "product": "envoy",
+        "claim_type": "affected_version",
+        "claimed_version": "1.22.1",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "1.22.2"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                "tested_version": "1.22.1",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "1.22.1",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                "tested_version": "1.22.1",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "1.22.1",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "verdict": "CONTRADICTED",
+      "verdict_reason": "AUTHORITATIVE_CONTRADICTION",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-29225",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-29225",
+          "vendor": "envoyproxy",
+          "product": "envoy",
+          "claim_type": "affected_version",
+          "claimed_version": "1.22.1",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "1.22.2"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-29225",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                    "tested_version": "1.22.1",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "1.22.1",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                    "tested_version": "1.22.1",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "1.22.1",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "CONTRADICTED",
+          "reason": "AUTHORITATIVE_CONTRADICTION"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-0666",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-0666_Condition_C_Type_C",
+      "generated_answer": "Microweber/microweber version 1.2.11 is affected by CVE-2022-0666, as the vulnerability is noted to exist in versions prior to 1.2.11. However, another document states that the vulnerability also exists in versions prior to 1.2.12. This creates a conflict regarding the exact version boundary. \n\nTo summarize:\n- Affected versions: prior to 1.2.11\n- Affected versions: prior to 1.2.12\n\nBoth documents indicate that version 1.2.11 is affected, but the second document suggests that the vulnerability persists until 1.2.12.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-0666",
+        "vendor": "microweber",
+        "product": "microweber/microweber",
+        "claim_type": "affected_version",
+        "claimed_version": "1.2.11",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-0666",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-0666",
+          "vendor": "microweber",
+          "product": "microweber/microweber",
+          "claim_type": "affected_version",
+          "claimed_version": "1.2.11",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-0666",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-21448",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-21448_Condition_C_Type_C",
+      "generated_answer": "Yes, Samsung Cloud version 5.3.0.32 is affected by CVE-2023-21448, as the vulnerability exists in versions prior to 5.3.0.32. \n\nAdditionally, the documents also state that Samsung Cloud version 5.3.0.33 is affected by the same CVE, which creates a conflict regarding the exact version boundary. \n\nTo summarize:\n- Affected versions: Prior to 5.3.0.32\n- Affected versions: Prior to 5.3.0.33\n\nBoth documents indicate that versions prior to 5.3.0.32 and 5.3.0.33 are affected, leading to a conflict in the exact version boundary.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2023-21448",
+        "vendor": "Samsung Mobile",
+        "product": "Samsung Cloud",
+        "claim_type": "affected_version",
+        "claimed_version": "5.3.0.32",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-21448",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-21448",
+          "vendor": "Samsung Mobile",
+          "product": "Samsung Cloud",
+          "claim_type": "affected_version",
+          "claimed_version": "5.3.0.32",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-21448",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-0787",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-0787_Condition_C_Type_C",
+      "generated_answer": "thorsten/phpmyfaq version 3.1.11 is affected by CVE-2023-0787, as the vulnerability exists in versions prior to 3.1.11.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2023-0787",
+        "vendor": "thorsten",
+        "product": "thorsten/phpmyfaq",
+        "claim_type": "affected_version",
+        "claimed_version": "3.1.11",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "3.1.11"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-0787",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-0787",
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "claim_type": "affected_version",
+          "claimed_version": "3.1.11",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "3.1.11"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-0787",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-4847",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-4847_Condition_C_Type_C",
+      "generated_answer": "Yes, usememos/memos version 0.9.1 is affected by CVE-2022-4847, as the vulnerability is noted for versions prior to 0.9.1.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-4847",
+        "vendor": "usememos",
+        "product": "usememos/memos",
+        "claim_type": "affected_version",
+        "claimed_version": "0.9.1",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "0.9.1"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-4847",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-4847",
+          "vendor": "usememos",
+          "product": "usememos/memos",
+          "claim_type": "affected_version",
+          "claimed_version": "0.9.1",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "0.9.1"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-4847",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-2931",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-2931_Condition_C_Type_C",
+      "generated_answer": "GitLab version 15.1.6 is not affected by CVE-2022-2931, as the vulnerability affects all versions before 15.1.6.",
+      "ground_truth_answer_class": "not_affected",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-2931",
+        "vendor": "GitLab",
+        "product": "GitLab",
+        "claim_type": "affected_version",
+        "claimed_version": "15.1.6",
+        "predicted_status": "not_affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "15.1.6"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+        "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.1.6",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.1.6",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.2",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.2.4",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.2",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.2.4",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.3",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.3.2",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.3",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.3.2",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.1.6",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.1.6",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.2",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.2.4",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.2",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.2.4",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.3",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.3.2",
+                "evaluation": "no-match"
+              },
+              {
+                "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                "tested_version": "15.1.6",
+                "version_start_including": "15.3",
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "15.3.2",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "verdict_reason": "AUTHORITATIVE_MATCH",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-2931",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-2931",
+          "vendor": "GitLab",
+          "product": "GitLab",
+          "claim_type": "affected_version",
+          "claimed_version": "15.1.6",
+          "predicted_status": "not_affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "15.1.6"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-2931",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+            "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+            "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.1.6",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.1.6",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.2",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.2.4",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.2",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.2.4",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.3",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.3.2",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.3",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.3.2",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.1.6",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.1.6",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.2",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.2.4",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.2",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.2.4",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.3",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.3.2",
+                    "evaluation": "no-match"
+                  },
+                  {
+                    "criteria": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "tested_version": "15.1.6",
+                    "version_start_including": "15.3",
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "15.3.2",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "SUPPORTED",
+          "reason": "AUTHORITATIVE_MATCH"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-27616",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-27616_Condition_C_Type_C",
+      "generated_answer": "Yes, DiskStation Manager (DSM) version 7.0.1 is affected by CVE-2022-27616, as the vulnerability exists in DSM before version 7.0.1-42218-3.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "parametric_override",
+      "extracted_claim": {
+        "cve": "CVE-2022-27616",
+        "vendor": "Synology",
+        "product": "DiskStation Manager (DSM)",
+        "claim_type": "affected_version",
+        "claimed_version": "7.0.1",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "7.0.1"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-27616",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-27616",
+          "vendor": "Synology",
+          "product": "DiskStation Manager (DSM)",
+          "claim_type": "affected_version",
+          "claimed_version": "7.0.1",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "7.0.1"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-27616",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2024-53987",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2024-53987_Condition_C_Type_C",
+      "generated_answer": "rails-html-sanitizer version 1.6.1 is not affected by CVE-2024-53987, as the vulnerability is fixed in version 1.6.1. \n\nHowever, there is a conflicting statement indicating that the vulnerability is also fixed in version 1.6.2. This creates a conflict regarding the specific version that addresses the vulnerability. \n\nTo summarize:\n- Version 1.6.1 is not affected (vulnerability fixed).\n- Version 1.6.2 is also mentioned as a fix (conflict).",
+      "ground_truth_answer_class": "not_affected",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2024-53987",
+        "vendor": "rails",
+        "product": "rails-html-sanitizer",
+        "claim_type": "affected_version",
+        "claimed_version": "1.6.1",
+        "predicted_status": "not_affected",
+        "stated_boundary": null,
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2024-53987",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2024-53987",
+          "vendor": "rails",
+          "product": "rails-html-sanitizer",
+          "claim_type": "affected_version",
+          "claimed_version": "1.6.1",
+          "predicted_status": "not_affected",
+          "stated_boundary": null,
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2024-53987",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-23913",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-23913_Condition_C_Type_C",
+      "generated_answer": "Apache ActiveMQ Artemis version 2.20.0 is not affected by CVE-2022-23913, as the vulnerability affects versions prior to 2.20.0 or 2.19.1.",
+      "ground_truth_answer_class": "not_affected",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-23913",
+        "vendor": "Apache Software Foundation",
+        "product": "Apache ActiveMQ Artemis",
+        "claim_type": "affected_version",
+        "claimed_version": "2.20.0",
+        "predicted_status": "not_affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "2.20.0"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-23913",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-23913",
+          "vendor": "Apache Software Foundation",
+          "product": "Apache ActiveMQ Artemis",
+          "claim_type": "affected_version",
+          "claimed_version": "2.20.0",
+          "predicted_status": "not_affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "2.20.0"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-23913",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-6709",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-6709_Condition_C_Type_C",
+      "generated_answer": "Yes, mlflow/mlflow version 2.9.2 is affected by CVE-2023-6709, as the vulnerability exists in versions prior to 2.9.2.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2023-6709",
+        "vendor": "mlflow",
+        "product": "mlflow/mlflow",
+        "claim_type": "affected_version",
+        "claimed_version": "2.9.2",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "2.9.2"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-6709",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-6709",
+          "vendor": "mlflow",
+          "product": "mlflow/mlflow",
+          "claim_type": "affected_version",
+          "claimed_version": "2.9.2",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "2.9.2"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-6709",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-0804",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-0804_Condition_C_Type_C",
+      "generated_answer": "Yes, Chrome version 99.0.4844.51 is affected by CVE-2022-0804, as the vulnerability is noted to affect versions prior to 99.0.4844.51. \n\nAdditionally, Chrome version 99.0.4844.52 is not affected, as it is the version that addresses the vulnerability. \n\nThere is no conflict in the documents regarding this specific version.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-0804",
+        "vendor": "Google",
+        "product": "Chrome",
+        "claim_type": "affected_version",
+        "claimed_version": "99.0.4844.51",
+        "predicted_status": "not_affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "99.0.4844.51"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "99.0.4844.51",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "99.0.4844.51",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        },
+        {
+          "configuration": 0,
+          "node": 1,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "99.0.4844.51",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "99.0.4844.51",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        },
+        {
+          "configuration": 0,
+          "node": 1,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "verdict_reason": "AUTHORITATIVE_MATCH",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-0804",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-0804",
+          "vendor": "Google",
+          "product": "Chrome",
+          "claim_type": "affected_version",
+          "claimed_version": "99.0.4844.51",
+          "predicted_status": "not_affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "99.0.4844.51"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-0804",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "99.0.4844.51",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "99.0.4844.51",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            },
+            {
+              "configuration": 0,
+              "node": 1,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "99.0.4844.51",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "99.0.4844.51",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            },
+            {
+              "configuration": 0,
+              "node": 1,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "SUPPORTED",
+          "reason": "AUTHORITATIVE_MATCH"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-0776",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-0776_Condition_C_Type_C",
+      "generated_answer": "hakimel/reveal.js version 4.3.0 is affected by CVE-2022-0776, as the vulnerability is noted for versions prior to 4.3.0.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-0776",
+        "vendor": "hakimel",
+        "product": "hakimel/reveal.js",
+        "claim_type": "affected_version",
+        "claimed_version": "4.3.0",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "4.3.0"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-0776",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-0776",
+          "vendor": "hakimel",
+          "product": "hakimel/reveal.js",
+          "claim_type": "affected_version",
+          "claimed_version": "4.3.0",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "4.3.0"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-0776",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-25169",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-25169_Condition_C_Type_C",
+      "generated_answer": "Apache Tika version 1.28.2 is not affected by CVE-2022-25169, as the vulnerability affects versions before 1.28.2. However, there is a conflicting statement that mentions versions before 1.28.3 are also affected. Therefore, the conflicting version boundaries are:\n\n- Affected: versions before 1.28.2\n- Affected: versions before 1.28.3\n\nThis indicates a conflict regarding the specific version boundaries.",
+      "ground_truth_answer_class": "not_affected",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-25169",
+        "vendor": "Apache Software Foundation",
+        "product": "Apache Tika",
+        "claim_type": "affected_version",
+        "claimed_version": "1.28.2",
+        "predicted_status": "not_affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-25169",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-25169",
+          "vendor": "Apache Software Foundation",
+          "product": "Apache Tika",
+          "claim_type": "affected_version",
+          "claimed_version": "1.28.2",
+          "predicted_status": "not_affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-25169",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-4719",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-4719_Condition_C_Type_C",
+      "generated_answer": "The context documents indicate that the business logic errors in the GitHub repository ikus060/rdiffweb are present prior to versions 2.5.5 and 2.5.6. This creates a conflict regarding the exact version boundary:\n\n1. One document states that the errors are present prior to 2.5.5.\n2. Another document states that the errors are present prior to 2.5.6.\n\nGiven this information, it is unclear whether version 2.5.5 is affected by CVE-2022-4719. Therefore, I cannot definitively state the impact on version 2.5.5 due to the conflicting information.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "classifier_error",
+      "extracted_claim": {
+        "cve": "CVE-2022-4719",
+        "vendor": "ikus060",
+        "product": "ikus060/rdiffweb",
+        "claim_type": "affected_version",
+        "claimed_version": "2.5.5",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-4719",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-4719",
+          "vendor": "ikus060",
+          "product": "ikus060/rdiffweb",
+          "claim_type": "affected_version",
+          "claimed_version": "2.5.5",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-4719",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-0248",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-0248_Condition_C_Type_C",
+      "generated_answer": "Yes, ioSmart Gen1 version 1.07.02 is affected by CVE-2023-0248, as the vulnerability applies to firmware versions prior to 1.07.02. \n\nAdditionally, the context also states that firmware version prior to 1.07.3 is affected, which includes version 1.07.02. \n\nThus, both version boundaries indicate that 1.07.02 is affected.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2023-0248",
+        "vendor": "Sensormatic Electronics, a subsidiary of Johnson Controls, Inc.",
+        "product": "ioSmart Gen1",
+        "claim_type": "affected_version",
+        "claimed_version": "1.07.02",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-0248",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-0248",
+          "vendor": "Sensormatic Electronics, a subsidiary of Johnson Controls, Inc.",
+          "product": "ioSmart Gen1",
+          "claim_type": "affected_version",
+          "claimed_version": "1.07.02",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-0248",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2024-3516",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2024-3516_Condition_C_Type_C",
+      "generated_answer": "Yes, Chrome version 123.0.6312.122 is affected by CVE-2024-3516, as the vulnerability is noted to exist in Google Chrome prior to version 123.0.6312.123.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2024-3516",
+        "vendor": "Google",
+        "product": "Chrome",
+        "claim_type": "affected_version",
+        "claimed_version": "123.0.6312.122",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "123.0.6312.123"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "123.0.6312.122",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "123.0.6312.122",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        },
+        {
+          "configuration": 1,
+          "node": 0,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "123.0.6312.122",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "123.0.6312.122",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        },
+        {
+          "configuration": 1,
+          "node": 0,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        }
+      ],
+      "verdict": "CONTRADICTED",
+      "verdict_reason": "AUTHORITATIVE_CONTRADICTION",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2024-3516",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2024-3516",
+          "vendor": "Google",
+          "product": "Chrome",
+          "claim_type": "affected_version",
+          "claimed_version": "123.0.6312.122",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "123.0.6312.123"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2024-3516",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "123.0.6312.122",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "123.0.6312.122",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            },
+            {
+              "configuration": 1,
+              "node": 0,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "123.0.6312.122",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "123.0.6312.122",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            },
+            {
+              "configuration": 1,
+              "node": 0,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "CONTRADICTED",
+          "reason": "AUTHORITATIVE_CONTRADICTION"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-0696",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-0696_Condition_C_Type_C",
+      "generated_answer": "Yes, vim/vim version 8.2.4428 is affected by CVE-2022-0696, as it is stated that the vulnerability exists in the GitHub repository vim/vim prior to version 8.2.4428. \n\nHowever, there is also a mention of the same CVE indicating it affects versions prior to 8.2.4429. This creates a conflict regarding the exact version boundary. \n\nTo summarize:\n- Affected: vim/vim version 8.2.4428 (based on the first document).\n- Affected: vim/vim version 8.2.4428 (based on the second document).\n\nBoth documents indicate that version 8.2.4428 is affected, but they provide slightly different version boundaries.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2022-0696",
+        "vendor": "vim",
+        "product": "vim/vim",
+        "claim_type": "affected_version",
+        "claimed_version": "8.2.4428",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-0696",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-0696",
+          "vendor": "vim",
+          "product": "vim/vim",
+          "claim_type": "affected_version",
+          "claimed_version": "8.2.4428",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-0696",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2024-6772",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2024-6772_Condition_C_Type_C",
+      "generated_answer": "Chrome version 126.0.6478.182 is affected by CVE-2024-6772, as the vulnerability is noted to exist in Google Chrome prior to this version. However, CVE-2024-6772 also mentions that it is not affected by the version 126.0.6478.183 and later. Therefore, the exact version boundary is:\n\nAffected: prior to 126.0.6478.182\nNot affected: 126.0.6478.183 and later\n\nThere is no conflict in the documents regarding this specific version.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2024-6772",
+        "vendor": "Google",
+        "product": "Chrome",
+        "claim_type": "affected_version",
+        "claimed_version": "126.0.6478.182",
+        "predicted_status": "not_affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "126.0.6478.182"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "126.0.6478.182",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "126.0.6478.182",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "126.0.6478.182",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "126.0.6478.182",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "verdict_reason": "AUTHORITATIVE_MATCH",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2024-6772",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2024-6772",
+          "vendor": "Google",
+          "product": "Chrome",
+          "claim_type": "affected_version",
+          "claimed_version": "126.0.6478.182",
+          "predicted_status": "not_affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "126.0.6478.182"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2024-6772",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "126.0.6478.182",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "126.0.6478.182",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "126.0.6478.182",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "126.0.6478.182",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "SUPPORTED",
+          "reason": "AUTHORITATIVE_MATCH"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-42466",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-42466_Condition_C_Type_C",
+      "generated_answer": "Yes, Apache Isis version 2.0.0 is affected by CVE-2022-42466, as the vulnerability existed prior to version 2.0.0-M9.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "parametric_override",
+      "extracted_claim": {
+        "cve": "CVE-2022-42466",
+        "vendor": "Apache Software Foundation",
+        "product": "Apache Isis",
+        "claim_type": "affected_version",
+        "claimed_version": "2.0.0",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "2.0.0"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-42466",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-42466",
+          "vendor": "Apache Software Foundation",
+          "product": "Apache Isis",
+          "claim_type": "affected_version",
+          "claimed_version": "2.0.0",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "2.0.0"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-42466",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2024-53984",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2024-53984_Condition_C_Type_C",
+      "generated_answer": "Nanopb version 0.4.9.1 is affected by CVE-2024-53984, as the vulnerability is fixed in version 0.4.9.1 and 0.4.9.2. Therefore, the exact version boundary is:\n\n- Affected: < 0.4.9.1\n- Not affected: >= 0.4.9.1\n\nHowever, since 0.4.9.1 is the version where the vulnerability is fixed, it is not affected. The conflict arises from the two mentions of the fix in the context documents, but both indicate that the vulnerability is resolved in 0.4.9.1 and 0.4.9.2.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2024-53984",
+        "vendor": "nanopb",
+        "product": "nanopb",
+        "claim_type": "affected_version",
+        "claimed_version": "0.4.9.1",
+        "predicted_status": "not_affected",
+        "stated_boundary": null,
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "NOT_EVALUATED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "APPLICABILITY_MISSING",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2024-53984",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2024-53984",
+          "vendor": "nanopb",
+          "product": "nanopb",
+          "claim_type": "affected_version",
+          "claimed_version": "0.4.9.1",
+          "predicted_status": "not_affected",
+          "stated_boundary": null,
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2024-53984",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "NOT_EVALUATED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "APPLICABILITY_MISSING"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-6509",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-6509_Condition_C_Type_C",
+      "generated_answer": "Yes, Chrome version 120.0.6099.62 is affected by CVE-2023-6509, as it is specified that the vulnerability exists in Google Chrome prior to version 120.0.6099.63.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "genuine_mutated_boundary_poisoning",
+      "extracted_claim": {
+        "cve": "CVE-2023-6509",
+        "vendor": "Google",
+        "product": "Chrome",
+        "claim_type": "affected_version",
+        "claimed_version": "120.0.6099.62",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "120.0.6099.63"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "RESOLVED",
+      "matched_cpe": [
+        "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+      ],
+      "nvd_applicability_branch": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        },
+        {
+          "configuration": 1,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "120.0.6099.62",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "120.0.6099.62",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "version_comparison": [
+        {
+          "configuration": 0,
+          "node": 0,
+          "relevance": "IRRELEVANT_NO_TARGET_CPE",
+          "evaluation": "ignored"
+        },
+        {
+          "configuration": 1,
+          "node": 0,
+          "trace": {
+            "operator": "OR",
+            "children": [
+              {
+                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                "tested_version": "120.0.6099.62",
+                "version_start_including": null,
+                "version_start_excluding": null,
+                "version_end_including": null,
+                "version_end_excluding": "120.0.6099.62",
+                "evaluation": "no-match"
+              }
+            ],
+            "evaluation": false
+          }
+        }
+      ],
+      "verdict": "CONTRADICTED",
+      "verdict_reason": "AUTHORITATIVE_CONTRADICTION",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-6509",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-6509",
+          "vendor": "Google",
+          "product": "Chrome",
+          "claim_type": "affected_version",
+          "claimed_version": "120.0.6099.62",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "120.0.6099.63"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-6509",
+          "cpe_match_criteria": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "matched_cpe": [
+            "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*"
+          ],
+          "cpe_resolution": "RESOLVED",
+          "applicability_state": "RESOLVED",
+          "applicability_branch": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            },
+            {
+              "configuration": 1,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "120.0.6099.62",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "120.0.6099.62",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": [
+            {
+              "configuration": 0,
+              "node": 0,
+              "relevance": "IRRELEVANT_NO_TARGET_CPE",
+              "evaluation": "ignored"
+            },
+            {
+              "configuration": 1,
+              "node": 0,
+              "trace": {
+                "operator": "OR",
+                "children": [
+                  {
+                    "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                    "tested_version": "120.0.6099.62",
+                    "version_start_including": null,
+                    "version_start_excluding": null,
+                    "version_end_including": null,
+                    "version_end_excluding": "120.0.6099.62",
+                    "evaluation": "no-match"
+                  }
+                ],
+                "evaluation": false
+              }
+            }
+          ],
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "CONTRADICTED",
+          "reason": "AUTHORITATIVE_CONTRADICTION"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-4800",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-4800_Condition_C_Type_C",
+      "generated_answer": "Yes, usememos/memos version 0.9.1 is affected by CVE-2022-4800, as the vulnerability is noted for versions prior to 0.9.1.",
+      "ground_truth_answer_class": "conflict_acknowledged",
+      "mechanism": "none",
+      "extracted_claim": {
+        "cve": "CVE-2022-4800",
+        "vendor": "usememos",
+        "product": "usememos/memos",
+        "claim_type": "affected_version",
+        "claimed_version": "0.9.1",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "0.9.1"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-4800",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-4800",
+          "vendor": "usememos",
+          "product": "usememos/memos",
+          "claim_type": "affected_version",
+          "claimed_version": "0.9.1",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "0.9.1"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-4800",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2024-21115",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2024-21115_Condition_C_Type_C",
+      "generated_answer": "VM VirtualBox version 7.0.16 is affected by CVE-2024-21115, as the supported versions that are affected are prior to 7.0.16 according to one document, and prior to 7.0.17 according to another document. This creates a conflict regarding the exact version boundary.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2024-21115",
+        "vendor": "Oracle Corporation",
+        "product": "VM VirtualBox",
+        "claim_type": "affected_version",
+        "claimed_version": "7.0.16",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2024-21115",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2024-21115",
+          "vendor": "Oracle Corporation",
+          "product": "VM VirtualBox",
+          "claim_type": "affected_version",
+          "claimed_version": "7.0.16",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2024-21115",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2023-21927",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2023-21927_Condition_C_Type_C",
+      "generated_answer": "JD Edwards EnterpriseOne Tools version 9.2.7.3 is affected by CVE-2023-21927, as the supported versions that are affected are prior to 9.2.7.3. \n\nHowever, another document states that the affected versions are prior to 9.2.7.4. This creates a conflict regarding the exact version boundary. \n\nIn summary:\n- Affected by CVE-2023-21927: Versions prior to 9.2.7.3 (first document).\n- Affected by CVE-2023-21927: Versions prior to 9.2.7.4 (second document). \n\nBoth boundaries indicate that version 9.2.7.3 is affected, but the conflict arises from the differing version thresholds.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2023-21927",
+        "vendor": "Oracle Corporation",
+        "product": "JD Edwards EnterpriseOne Tools",
+        "claim_type": "affected_version",
+        "claimed_version": "9.2.7.3",
+        "predicted_status": "affected",
+        "stated_boundary": null,
+        "extraction_status": "AMBIGUOUS",
+        "extraction_reason": "MULTIPLE_BOUNDARIES"
+      },
+      "extraction_status": "AMBIGUOUS",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CLAIM_AMBIGUOUS",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2023-21927",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2023-21927",
+          "vendor": "Oracle Corporation",
+          "product": "JD Edwards EnterpriseOne Tools",
+          "claim_type": "affected_version",
+          "claimed_version": "9.2.7.3",
+          "predicted_status": "affected",
+          "stated_boundary": null,
+          "extraction_status": "AMBIGUOUS",
+          "extraction_reason": "MULTIPLE_BOUNDARIES"
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2023-21927",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CLAIM_AMBIGUOUS"
+        }
+      }
+    },
+    {
+      "cve": "CVE-2022-0219",
+      "condition": "C+CG",
+      "source_record_id": "CVE-2022-0219_Condition_C_Type_C",
+      "generated_answer": "Yes, skylot/jadx version 1.3.2 is affected by CVE-2022-0219, as the vulnerability exists in versions prior to 1.3.2.",
+      "ground_truth_answer_class": "affected",
+      "mechanism": "inclusive_boundary_misreading",
+      "extracted_claim": {
+        "cve": "CVE-2022-0219",
+        "vendor": "skylot",
+        "product": "skylot/jadx",
+        "claim_type": "affected_version",
+        "claimed_version": "1.3.2",
+        "predicted_status": "affected",
+        "stated_boundary": {
+          "operator": "<",
+          "version": "1.3.2"
+        },
+        "extraction_status": "EXTRACTED",
+        "extraction_reason": null
+      },
+      "extraction_status": "EXTRACTED",
+      "cpe_resolution": "UNRESOLVED",
+      "matched_cpe": null,
+      "nvd_applicability_branch": null,
+      "version_comparison": null,
+      "verdict": "UNVERIFIABLE",
+      "verdict_reason": "CPE_UNRESOLVED",
+      "kb_snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+      "kb_record_identifier": "CVE-2022-0219",
+      "implementation_version": "claimguard-1.0.0",
+      "verification": {
+        "claim": {
+          "cve": "CVE-2022-0219",
+          "vendor": "skylot",
+          "product": "skylot/jadx",
+          "claim_type": "affected_version",
+          "claimed_version": "1.3.2",
+          "predicted_status": "affected",
+          "stated_boundary": {
+            "operator": "<",
+            "version": "1.3.2"
+          },
+          "extraction_status": "EXTRACTED",
+          "extraction_reason": null
+        },
+        "provenance": {
+          "kb_name": "NVD",
+          "snapshot_id": "nvd-json20-2022-2024-sha256-2eb72481314d3d9c79797689967691d1f3c84d83e9350ce8feade0e057a7c45f",
+          "snapshot_manifest_reference": "config/kb_snapshot_manifest.json",
+          "cve": "CVE-2022-0219",
+          "cpe_match_criteria": null,
+          "matched_cpe": null,
+          "cpe_resolution": "UNRESOLVED",
+          "applicability_state": "UNVERIFIABLE",
+          "applicability_branch": null,
+          "version_resolver": "numeric-dot-v1",
+          "version_comparison": null,
+          "implementation_version": "claimguard-1.0.0",
+          "verdict": "UNVERIFIABLE",
+          "reason": "CPE_UNRESOLVED"
+        }
+      }
+    }
+  ]
+}
