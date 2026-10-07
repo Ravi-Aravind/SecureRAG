@@ -68,3 +68,8 @@ checkpoints/
 huggingface/
 transformers_cache/
 sentence_transformers/
+
+# ==============================
+# Other Test's Documentation
+# ==============================
+Test_docs
